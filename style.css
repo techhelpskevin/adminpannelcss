@@ -51,14 +51,15 @@ label {
   display: flex;
   gap: 30px;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: -10px;
+  height: 50%;
 }
 .select-range div {
   width: 300px;
 }
 .select-range div div span {
   font-size: 15px;
-  color: #006d77;
+  font-weight: bold;
 }
 .filterbutton .css-b62m3t-container .css-t3ipsp-control {
   width: 248.5px !important;
@@ -76,7 +77,10 @@ label {
   background-color: #006d77 !important;
   border: none;
   border-radius: 8px;
+  text-align: center;
   height: 40px;
+  margin-top: 5%;
+  width: auto;
 }
 .select-city-button
   .css-b62m3t-container
@@ -1113,7 +1117,7 @@ footer.footerdiv hr {
   width: 50vw !important;
 }
 .home-page-banner h1 {
-  font-size: 600% !important;
+  font-size: 500% ;
   margin-top: 10px;
   padding: 10px;
   color: #ce3131;
@@ -1121,7 +1125,7 @@ footer.footerdiv hr {
 
 @media (min-width: 321px) and (max-width: 460px) {
   .home-page-banner {
-    width: 100%;
+    width: 300%;
   }
   .contentdiv {
     width: 100%;
@@ -1193,7 +1197,7 @@ footer.footerdiv hr {
 }
 @media (min-width: 460px) and (max-width: 767px) {
   .home-page-banner {
-    width: 100% !important;
+    width: 300% !important;
   }
   .homeHeader div:nth-child(2) {
     width: 100%;
@@ -1260,7 +1264,7 @@ footer.footerdiv hr {
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .home-page-banner {
-    width: 100%;
+    width: 500%;
   }
 
   .home-page-banner h1 {
@@ -1345,4 +1349,11 @@ footer.footerdiv hr {
 .logodiv a img {
   height: 40px;
   margin-left: 10px;
+}
+
+
+.homeselect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
