@@ -1103,6 +1103,7 @@ font-size: 13px;
   flex-direction: row-reverse;
   align-items: center;
   margin-top: 0% !important;
+  justify-content:space-between;
 }
 
 .footer-social-icon a svg {
