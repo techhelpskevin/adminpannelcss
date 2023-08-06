@@ -217,7 +217,8 @@ article.home-page-banner::after{
 }
 .home-screen-card-section-bottom h2 {
   font-size: 45px !important;
-  /* width: 300px !important; */
+  margin-top: 70px;
+    margin-bottom: 0px;
 }
 
 .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
