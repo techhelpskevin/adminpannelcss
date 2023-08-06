@@ -158,7 +158,15 @@ article.home-page-banner::after{
   line-height:44px;
   color:#101828;
 }
-
+.scroll-to-top{
+  position:fixed;
+  right:50px;
+  bottom:40px;
+  width:42px;
+  height:42px;
+  border-radius:50%;
+  background-color:#006d77;
+}
 .default-home-footer-div{
   padding:40px;
   margin-top:40px;
