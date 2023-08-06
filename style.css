@@ -1121,8 +1121,8 @@ font-size: 13px;
   justify-content:center;
 }
 .footer-social-icon {
-  float: right;
-  width: 60%;
+display:flex;
+  gap:24px;
 }
 .footer-copyright p.copyright {
   float: left;
@@ -1130,7 +1130,7 @@ font-size: 13px;
   font-weight: 600;
 }
 .footer-copyright {
-  width: 60%;
+  //width: 60%;
 }
 footer.footerdiv hr {
       margin: 0px;
