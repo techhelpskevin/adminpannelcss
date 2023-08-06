@@ -924,9 +924,9 @@ div .container ul {
   transition: transform 0.2s, -webkit-transform 0.2s;
 }
 .MuiCardContent-root{
-  padding-top:10px;
-  padding-left:8px;
-  padding-right:8px;
+  padding-top:10px!important;
+  padding-left:8px!important;
+  padding-right:8px!important;
 }
 .css-1dimb5e-singleValue {
   color: white !important;
