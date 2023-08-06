@@ -972,6 +972,8 @@ font-size: 13px;
   text-decoration:underline;
 }
 .MuiButtonBase-root>div:nth-child(3){
+      justify-content: space-between;
+    align-items: end;
   margin-top:0px!important;
   padding-left:16px;
   padding-right:16px;
