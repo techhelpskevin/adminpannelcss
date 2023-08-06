@@ -985,7 +985,7 @@ font-size: 13px;
   background-color:#006d77;
 }
 .MuiButtonBase-root>div:nth-child(3) svg{
-  margin-bottom:5px;
+  margin-bottom:5px!important;
 }
 .css-1dimb5e-singleValue {
   color: white !important;
