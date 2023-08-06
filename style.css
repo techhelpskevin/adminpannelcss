@@ -1124,6 +1124,8 @@ footer.footerdiv hr {
     color: #fafafa;
     max-width: 800px;
     line-height: 66px;
+  text-align:center;
+  
 }
 
 @media (min-width: 321px) and (max-width: 460px) {
