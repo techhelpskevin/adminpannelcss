@@ -148,9 +148,10 @@ label {
 }
 .home-screen-card-section-heading {
   font-size: 42px;
-  marin-top:50px;
+  margin-top:50px;
   margin-bottom:24px;
   line-height:44px;
+  color:#101828;
 }
 .default-home-cards {
   margin: 100px;
