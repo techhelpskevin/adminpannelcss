@@ -929,14 +929,14 @@ div .container ul {
   padding-left:8px!important;
   padding-right:8px!important;
 }
-.MuiCardContent-root>div:nth-child(2){
+.MuiCardContent-root>div:nth-child(3){
   justify-content:space-between;
 }
-.MuiCardContent-root>div:nth-child(2)>div{
+.MuiCardContent-root>div:nth-child(3)>div{
   align-items:center;
   height:50px;
 }
-.MuiCardContent-root>div:nth-child(2)>div img{
+.MuiCardContent-root>div:nth-child(3)>div img{
   height:12px;
   width:12px;
   object-fit:contain;
