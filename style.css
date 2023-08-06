@@ -1104,6 +1104,8 @@ font-size: 13px;
   align-items: center;
   margin-top: 0% !important;
   justify-content:space-between;
+  padding-left:8px;
+  padding-right:70px;
 }
 
 .footer-social-icon a svg {
