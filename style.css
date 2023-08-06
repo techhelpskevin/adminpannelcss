@@ -147,7 +147,10 @@ label {
   background-color: #006d77 !important;
 }
 .home-screen-card-section-heading {
-  font-size: 39px;
+  font-size: 42px;
+  marin-top:50px;
+  margin-bottom:24px;
+  line-height:44px;
 }
 .default-home-cards {
   margin: 100px;
@@ -1361,5 +1364,5 @@ footer.footerdiv hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top:60px;
+  margin-top:30px;
 }
