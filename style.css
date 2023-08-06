@@ -928,7 +928,7 @@ div .container ul {
   padding-left:8px!important;
   padding-right:8px!important;
 }
-.MuiCardContent-root MuiTypography-h6{
+.MuiCardContent-root .MuiTypography-h6{
   text-align:center;
   font-size:18px;
   line-height:25px;
