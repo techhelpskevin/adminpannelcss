@@ -1093,8 +1093,8 @@ font-size: 13px;
 }
 
 .footer-social-icon a svg {
-  height: 28px;
-  width: 28px;
+  height: 22px;
+  width: 22px;
   color: #fff;
 }
 .footer-social-icon a {
@@ -1103,6 +1103,9 @@ font-size: 13px;
   width:32px;
   border-radius:50%;
   background-color:#83c5be;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 .footer-social-icon {
   float: right;
