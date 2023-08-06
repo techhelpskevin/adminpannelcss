@@ -936,6 +936,7 @@ div .container ul {
   font-size:14px;
   text-transform:capitalize;
   color:#101828;
+  text-align:center;
 }
 .MuiButtonBase-root .MuiCardMedia-img{
   height:190px;
