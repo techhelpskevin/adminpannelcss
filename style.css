@@ -931,6 +931,7 @@ div .container ul {
 }
 .MuiCardContent-root>div:nth-child(3){
   justify-content:space-between;
+  gap:0px!important;
 }
 .MuiCardContent-root>div:nth-child(3)>div{
   align-items:center;
