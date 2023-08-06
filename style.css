@@ -159,9 +159,7 @@ article.home-page-banner::after{
   line-height:44px;
   color:#101828;
 }
-.default-home-cards {
-  margin: 100px;
-}
+
 
 .div {
   display: grid;
