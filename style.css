@@ -929,6 +929,18 @@ div .container ul {
   padding-left:8px!important;
   padding-right:8px!important;
 }
+.MuiCardContent-root>div:nth-child(2){
+  justify-content:space-between;
+}
+.MuiCardContent-root>div:nth-child(2)>div{
+  align-items:center;
+  height:50px;
+}
+.MuiCardContent-root>div:nth-child(2)>div img{
+  height:12px;
+  width:12px;
+  object-fit:contain;
+}
 .MuiCardContent-root>.MuiTypography-body2{
     padding-top:8px!important;
   padding-left:8px!important;
