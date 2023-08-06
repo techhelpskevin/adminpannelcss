@@ -939,6 +939,7 @@ div .container ul {
   color: #2f2a4a;
   font-weight:700;
       font-family: Noto Sans,sans-serif;
+  margin:0px;
 }
 .MuiCardContent-root .MuiTypography-h6:hover{
   text-decoration:underline;
