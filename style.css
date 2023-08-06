@@ -888,9 +888,9 @@ div .container ul {
 
 .searchdiv {
   width: 100%;
-  display: grid !important;
-  grid-template-columns: 1fr 1fr 1fr !important;
-  gap: 30px;
+  display: flex !important;
+  flex-wrap:wrap;
+  gap: 20px;
 }
 
 .result-searchdiv .searchdiv {
@@ -914,11 +914,6 @@ div .container ul {
   background-color: #ececec !important;
 }
 
-.default-home-cards div {
-  width: 100%;
-  gap: 50px;
-  width: 260px !important;
-}
 .default-home-cards .searchdiv .css-d9xncm {
   margin-top: 0% !important;
   -webkit-transition: -webkit-transform 0.2s;
