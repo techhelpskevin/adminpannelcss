@@ -161,7 +161,7 @@ article.home-page-banner::after{
 .scroll-to-top{
   position:fixed;
   right:50px;
-  bottom:40px;
+  bottom:30px;
   width:42px;
   height:42px;
   border-radius:50%;
@@ -174,6 +174,7 @@ article.home-page-banner::after{
 .default-home-footer-div{
   padding:40px;
   margin-top:40px;
+  padding-bottom:90px;
 }
 .default-home-footer-div .footerlink img{
   height:115px;
