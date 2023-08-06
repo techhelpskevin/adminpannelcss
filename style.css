@@ -922,6 +922,7 @@ div .container ul {
   transition: -webkit-transform 0.2s;
   transition: transform 0.2s;
   transition: transform 0.2s, -webkit-transform 0.2s;
+  height:auto;
 }
 .MuiCardContent-root{
   padding-top:20px!important;
