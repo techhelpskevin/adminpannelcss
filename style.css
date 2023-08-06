@@ -879,7 +879,9 @@ div .container ul {
   display: flex !important;
   justify-content: center !important;
   width: 50% !important;
+  margin-top:50px;
 }
+
 .default-home-cards footer {
   margin: auto !important;
   margin-left: 50% !important;
