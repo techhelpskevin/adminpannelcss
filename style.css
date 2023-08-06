@@ -104,6 +104,7 @@ article.home-page-banner::after{
   height: 40px;
   width: 80px;
   border: none;
+  margin-left: 50px;
   border-radius: 6px;
   color: #fff;
   font-size: medium;
@@ -1149,7 +1150,7 @@ display:flex;
   font-weight: 600;
 }
 .footer-copyright {
-  //width: 60%;
+  width: 60%;
 }
 footer.footerdiv hr {
       margin: 0px;
