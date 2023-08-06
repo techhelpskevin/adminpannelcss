@@ -163,6 +163,7 @@ article.home-page-banner::after{
   right:50px;
   bottom:30px;
   width:42px;
+  cursor:pointer;
   height:42px;
   border-radius:50%;
   background-color:#006d77;
