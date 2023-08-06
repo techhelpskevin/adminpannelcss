@@ -1097,7 +1097,8 @@ font-size: 13px;
   align-items: center;
   font-size: 22px;
   color: #006d77 !important;
-  margin-top: 8px;
+  margin-top: 10px;
+  margin-bottom:10px;
   text-decoration: none;
   font-weight: 500;
 }
