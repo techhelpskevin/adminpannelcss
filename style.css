@@ -275,7 +275,7 @@ article.home-page-banner::after{
 .actioncontainer {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 50px;
 }
 .sliderdiv {
   width: 290px;
@@ -1090,6 +1090,8 @@ font-size: 13px;
     right: 0;
     top: 0;
     z-index: 9999999;
+    margin-bottom: -10px;
+    margin-top: -20px;
     background: #fff;
   border-bottom:1px solid rgb(204, 204, 204);
 }
@@ -1109,6 +1111,7 @@ font-size: 13px;
   margin-bottom:10px;
   text-decoration: none;
   font-weight: 500;
+  margin-right: 60px;
 }
 .footerlogo .footerlink {
   float: left;
