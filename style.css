@@ -1095,7 +1095,7 @@ font-size: 13px;
   display:flex;
 }
 .homeHeader .MuiButtonBase-root svg{
-  color:#000;
+  color:#000!important;
 }
 .logodiv .headerlink {
   display: flex;
