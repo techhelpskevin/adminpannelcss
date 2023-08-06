@@ -38,9 +38,12 @@ label {
 }
 
 .home-page-banner {
-  height: 350px;
-  justify-content: center;
-  text-align: center;
+  height: 420px;
+  width: 100%;
+    background-image: url(https://thumbs.dreamstime.com/b/mumbai-capital-india-mumbai-india-december-mumbai-financial-commercial-entertainment-capital-india-december-112388360.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .css-19bb58m {
@@ -1117,10 +1120,10 @@ footer.footerdiv hr {
   width: 50vw !important;
 }
 .home-page-banner h1 {
-  font-size: 500% ;
-  margin-top: 10px;
-  padding: 10px;
-  color: #fafafa;
+      font-size: 56px;
+    color: #fafafa;
+    max-width: 800px;
+    line-height: 66px;
 }
 
 @media (min-width: 321px) and (max-width: 460px) {
