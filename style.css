@@ -924,9 +924,12 @@ div .container ul {
   transition: transform 0.2s, -webkit-transform 0.2s;
 }
 .MuiCardContent-root{
-  padding-top:10px!important;
+  padding-top:20px!important;
   padding-left:8px!important;
   padding-right:8px!important;
+}
+.css-rhsghg{
+  height:190px;
 }
 .MuiCardContent-root .MuiTypography-h6{
   text-align:center;
