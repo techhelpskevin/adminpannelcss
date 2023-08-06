@@ -44,8 +44,14 @@ label {
     display: flex;
     align-items: center;
     justify-content: space-around;
+  position:relative;
 }
-
+.home-page-banner::after{
+  content:'';
+  position:absolute;
+  inset:0;
+  background-color:red;
+}
 .css-19bb58m {
   color: white !important;
 }
