@@ -929,7 +929,7 @@ div .container ul {
   padding-left:8px!important;
   padding-right:8px!important;
 }
-.MuiCardContent-root .MuiTypography-body2{
+.MuiCardContent-root>.MuiTypography-body2{
     padding-top:8px!important;
   padding-left:8px!important;
   padding-right:8px!important;
