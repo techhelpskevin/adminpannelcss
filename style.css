@@ -939,7 +939,7 @@ div .container ul {
   font-weight:700;
       font-family: Noto Sans,sans-serif;
 }
-.MuiCardContent-root MuiTypography-h6:hover{
+.MuiCardContent-root .MuiTypography-h6:hover{
   text-decoration:underline;
 }
 .css-1dimb5e-singleValue {
