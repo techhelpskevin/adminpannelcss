@@ -163,7 +163,11 @@ article.home-page-banner::after{
   padding:40px;
   margin-top:40px;
 }
-
+.default-home-footer-div .footerlink img{
+  height:115px;
+  width:115px;
+  object-fit:contain;
+}
 .div {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
