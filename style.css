@@ -1139,7 +1139,9 @@ footer.footerdiv hr {
   position:relative;
   z-index:999;
 }
-
+.home-page-banner h1 span{
+color:#ffc868;
+}
 @media (min-width: 321px) and (max-width: 460px) {
   .home-page-banner {
     width: 300%;
