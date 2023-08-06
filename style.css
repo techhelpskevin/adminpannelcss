@@ -915,6 +915,7 @@ div .container ul {
 }
 
 .default-home-cards .searchdiv .css-d9xncm {
+  max-width:280px;
   margin-top: 0% !important;
   -webkit-transition: -webkit-transform 0.2s;
   transition: -webkit-transform 0.2s;
