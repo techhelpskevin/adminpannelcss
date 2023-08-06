@@ -1125,7 +1125,7 @@ footer.footerdiv hr {
     max-width: 800px;
     line-height: 66px;
   text-align:center;
-  
+  margin:0px;
 }
 
 @media (min-width: 321px) and (max-width: 460px) {
@@ -1361,4 +1361,5 @@ footer.footerdiv hr {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top:60px;
 }
