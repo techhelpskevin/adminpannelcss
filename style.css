@@ -50,7 +50,7 @@ article.home-page-banner::after{
   content:'';
   position:absolute;
   inset:0;
-  background-color:#00000021;
+  background-color:#00000060;
 }
 .css-19bb58m {
   color: white !important;
@@ -1136,6 +1136,8 @@ footer.footerdiv hr {
     line-height: 66px;
   text-align:center;
   margin:0px;
+  position:relative;
+  z-index:999;
 }
 
 @media (min-width: 321px) and (max-width: 460px) {
