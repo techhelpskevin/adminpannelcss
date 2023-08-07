@@ -1337,6 +1337,9 @@ footer.footerdiv hr {
   background-color: rgb(245, 245, 245)!important;
   color: rgb(6, 105, 114);
   border: 1px solid rgb(6, 105, 114);
+  bottom: -17px;
+  left: 30%;
+  line-height: 21px;
 }
 .other-images {
 width: 100%;
