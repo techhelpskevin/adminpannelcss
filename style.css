@@ -1433,6 +1433,7 @@ color:#ffc868;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
   }
   .homeHeader div:nth-child(2) {
     width: 100%;
@@ -1442,6 +1443,7 @@ color:#ffc868;
   }
   .MuiButtonBase-root .MuiCardMedia-img {
     height: 180px;
+    width: 100%;
 }
   .home-page-banner h1 {
     font-size: 26px !important;
