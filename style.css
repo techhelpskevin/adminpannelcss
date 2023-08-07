@@ -80,6 +80,7 @@ article.home-page-banner::after{
 }
 .search-result-screen {
   gap: 39px;
+  min-height:100vh;
   margin-top: 20px !important;
 }
 .select-city-button .css-b62m3t-container .css-13cymwt-control {
@@ -916,12 +917,12 @@ div .container ul {
 }
 
 .result-searchdiv .searchdiv {
-  width: 70% !important;
+  width: 100% !important;
   display: flex !important;
   flex-direction: column;
 }
 .searchdiv .css-s18byi {
-  width: 140% !important;
+  width: 100% !important;
 }
 
 .searchdiv .css-s18byi .css-1m5f78l {
