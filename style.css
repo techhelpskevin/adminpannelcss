@@ -817,7 +817,12 @@ div .container ul {
   width: auto;
   border-radius: 3px;
 }
-
+.tablediv table{
+  border-collapse: collapse;
+}
+.tablediv table thead{
+  border-bottom: 1px solid #ebeff2;
+}
 .formcontainer {
   padding: 10px;
   background-color: white !important;
