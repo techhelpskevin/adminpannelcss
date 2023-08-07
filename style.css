@@ -158,6 +158,12 @@ article.home-page-banner::after{
   line-height:44px;
   color:#101828;
 }
+.muiCircularProgress-root{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
 .scroll-to-top{
   position:fixed;
   right:50px;
