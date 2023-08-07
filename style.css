@@ -348,8 +348,11 @@ margin-right: 20px;
 }
 .contentdiv>div{
   display:flex;
+  gap:8px;
 }
-
+.contentdiv>div p{
+  font-size: 14px;
+}
 .detailimages {
   height: 24px !important;
   object-fit:contain;
@@ -380,6 +383,7 @@ margin-right: 20px;
   font-size: 18px;
   margin: 0px;
   color: #101828;
+  font-weight: 700;
 }
 .detailcardheadingdiv .MuiTypography-root:hover{
   text-decoration: underline;
