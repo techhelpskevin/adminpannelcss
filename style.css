@@ -817,13 +817,8 @@ div .container ul {
   border-left: none !important;
 }
 .tablediv {
-  margin-top: 10px;
   background-color: white;
-  padding-top: 1px;
-  padding-bottom: 1px;
   width: auto;
-  border: 3px solid white;
-  border-top: none;
   border-radius: 3px;
 }
 
