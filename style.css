@@ -1248,8 +1248,11 @@ width: 100%;
   height: fit-content !important;
 }
 .detailcomponent p {
-  font-size: 30px;
+  font-size: 25px;
+  line-height: 35px;
+  color: #2f2a4a!important;
   font-weight: 600;
+  padding: 10px 0px;
 }
 
 .detail-info-div {
