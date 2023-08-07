@@ -835,6 +835,7 @@ div .container ul {
   background-color: white;
   align-items: end;
   gap: 20px;
+  margin-bottom: 5px;
 }
 .lbel {
   color: #109CF1;
