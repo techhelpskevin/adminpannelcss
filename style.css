@@ -860,6 +860,11 @@ div .container ul {
   border-radius: 0px;
   border: none;
 }
+textarea.inputtag{
+padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
 .MuiPaper-elevation4 {
   box-shadow: none !important;
   background-color: #f5f6f8;
