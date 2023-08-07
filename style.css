@@ -1033,6 +1033,7 @@ font-size: 13px;
 .searchpagebuttondiv button {
   width: 6em;
   background-color: #086c74;
+  margin-top: 0px;
 }
 .searchpagebuttondiv p {
   font-size: small;
