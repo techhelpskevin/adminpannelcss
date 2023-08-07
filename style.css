@@ -295,6 +295,7 @@ article.home-page-banner::after{
   border-radius:8px;
   height:40px;
   font-weight:700;
+  background-color:#fff;
 }
 .filterbutton .css-b62m3t-container .css-13cymwt-control {
   background-color: white !important;
@@ -1166,8 +1167,6 @@ footer.footerdiv hr {
   width: 100%;
   border-radius: 8px;
   height: 40px;
-  border: 1px solid #d4d4d4;
-  background-color: white;
 }
 .toogle-filter {
   border-radius: 8px;
