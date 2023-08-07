@@ -913,7 +913,11 @@ box-shadow: 6px 0px 18px 0px rgba(0, 0, 0, 0.06);
   display: flex;
   flex-direction: column;
   margin-top: 100px;
-  gap: 30px;
+  justify-content: flex-start;
+}
+.sidebarcontainer a{
+  margin: revert;
+  align-items: center;
 }
 .card-body div button {
   background-color: #182c74 !important;
