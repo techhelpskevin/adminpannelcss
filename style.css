@@ -364,7 +364,6 @@ article.home-page-banner::after{
 
 .detailcardheadingdiv {
   margin: auto !important;
-  margin-top: 1px !important;
   padding: 0%;
   background-color: #d4d4d4;
   display: flex;
