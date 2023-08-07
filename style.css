@@ -293,6 +293,7 @@ article.home-page-banner::after{
   box-shadow:none;
       border: 1px solid #d4d4d4;
   border-radius:8px;
+  height:40px;
 }
 .filterbutton .css-b62m3t-container .css-13cymwt-control {
   background-color: white !important;
