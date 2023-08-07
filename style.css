@@ -918,6 +918,7 @@ box-shadow: 6px 0px 18px 0px rgba(0, 0, 0, 0.06);
 .sidebarcontainer a{
   margin: revert;
   align-items: center;
+  border-bottom:1px solid #EBEFF2;
 }
 .sidebarcontainer a svg{
   height: 32px;
