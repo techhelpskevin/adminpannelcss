@@ -932,6 +932,9 @@ div .container ul {
 .searchdiv .css-s18byi .css-1m5f78l>div{
   flex:1;
 }
+.searchdiv .css-s18byi .css-1m5f78l>div .MuiCardContent-root{
+  padding:0px!important;
+} 
 .result-searchdiv {
   margin-top: 50px;
 }
