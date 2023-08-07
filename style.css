@@ -1483,17 +1483,18 @@ color:#ffc868;
     gap: 50px;
   }
   .cardBodyContainer .filter-button-div {
-    background-color: #f8f4f4;
+    background-color: #f4f4f4;
     flex-wrap: wrap;
     display: flex;
     flex-direction: row !important;
     margin-top: 40px;
     width: 100%;
     padding-top: 20px !important;
+    border: none;
     border-top:1px solid rgb(212, 212, 212);
     border-bottom:1px solid rgb(212, 212, 212);
     border-image: initial;
-    gap: 30px;
+    gap: 10px;
   }
   .result-searchdiv .searchdiv {
     display: flex !important;
