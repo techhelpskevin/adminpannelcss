@@ -379,16 +379,21 @@ align-items: flex-start;
 .MuiPagination-ul li {
   height:32px;
   width:32px;
-  border:1px solid rgba(0, 0, 0, 0.23);
-  background-color: #fff;
-  border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.MuiPagination-ul li button{
+  border-radius: 4px;
+  background-color: #fff;
+  border:1px solid rgba(0, 0, 0, 0.23);
+}
+
 .MuiPagination-ul li .Mui-selected{
-  border-radius: none;
+  border-radius: 0px;
+  border-color: rgba(25, 118, 210, 0.5);
   background-color: rgba(25, 118, 210, 0.24);
+  color: rgb(16, 24, 40);
 }
 .detailcardheadingdiv {
   margin: auto !important;
