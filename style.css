@@ -1427,7 +1427,9 @@ color:#ffc868;
   .logodiv {
     width: 100% !important;
   }
-
+  .MuiButtonBase-root .MuiCardMedia-img {
+    height: 180px;
+}
   .home-page-banner h1 {
     font-size: 26px !important;
     line-height: 38px;
