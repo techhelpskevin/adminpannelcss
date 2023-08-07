@@ -806,11 +806,11 @@ div .container ul {
 
 .bodytext {
   background-color: white !important;
-  color: black !important;
+  color: #323C47 !important;
   border-color: #ebeff2 !important;
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
-  font-weight: 500 !important;
+  font-weight: 700 !important;
   border-bottom: 1px solid #ebeff2;
   padding-left: 10px;
   padding-right: 10px;
