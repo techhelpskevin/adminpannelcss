@@ -1263,6 +1263,7 @@ footer.footerdiv hr {
  justify-content: space-between;
  flex-wrap: wrap;
  padding: 30px;
+ padding-bottom: 0px;
 }
 .rowicon>div {
   display: flex;
@@ -1270,6 +1271,8 @@ footer.footerdiv hr {
   gap: 8px;
   font-size: 14px;
   color: #101828;
+  flex: 1;
+  justify-content: center;
 }
 .rowicon>div img{
   height: 40px;
