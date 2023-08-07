@@ -1127,6 +1127,7 @@ font-size: 13px;
 .detail-image-div .side-images{
   width: 360px;
 height: 100%; 
+overflow-y: auto;
 }
 .img360 {
   width: 100%;
@@ -1236,9 +1237,7 @@ footer.footerdiv hr {
 }
 
 .other-images {
-  width: 25%;
-  overflow-y: auto;
-  height: 100%;
+width: 100%;
 }
 .other-images img {
   width: 100%;
