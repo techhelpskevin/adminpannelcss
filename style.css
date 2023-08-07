@@ -281,6 +281,7 @@ article.home-page-banner::after{
 .match-found-heading{
 font-size: 30px;
 color: #101828;
+font-weight: 500;
 }
 .sliderdiv {
   width: 290px;
