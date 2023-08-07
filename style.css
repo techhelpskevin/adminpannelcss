@@ -390,10 +390,9 @@ align-items: flex-start;
 }
 
 .MuiPagination-ul li .Mui-selected{
-  border-radius: 0px;
   border-color: rgba(25, 118, 210, 0.5);
   background-color: rgba(25, 118, 210, 0.24);
-  color: rgb(16, 24, 40);
+  color: #1976d2;
 }
 .detailcardheadingdiv {
   margin: auto !important;
