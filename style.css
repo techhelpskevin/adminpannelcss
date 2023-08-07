@@ -82,9 +82,7 @@ article.home-page-banner::after{
   min-height:100vh;
   margin-top: 20px !important;
 }
-.search-result-screen .homeHeader{
-justify-content: center;
-}
+
 .select-city-button .css-b62m3t-container .css-13cymwt-control {
   background-color: #006d77 !important;
   border: none;
@@ -1139,6 +1137,7 @@ overflow-y: auto;
 }
 .homeHeader {
   display: flex;
+  justify-content: center;
       position: sticky;
     left: 0;
     right: 0;
@@ -1151,6 +1150,10 @@ overflow-y: auto;
 }
 .homeHeader>div:nth-child(1){
   display:flex;
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .homeHeader .MuiButtonBase-root svg{
   color:#000!important;
