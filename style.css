@@ -1585,6 +1585,8 @@ color:#ffc868;
 .modal-content {
   width: 100%;
   max-width: 500px;
+  max-height: 80%;
+  overflow-y: auto;
   background: white;
   position: relative;
   border-radius: 5px;
