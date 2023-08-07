@@ -89,7 +89,6 @@ article.home-page-banner::after{
   border-radius: 8px;
   text-align: center;
   height: 40px;
-  margin-top: 5%;
   width: auto;
 }
 .select-city-button
@@ -277,6 +276,11 @@ article.home-page-banner::after{
   display: flex;
   justify-content: center;
   gap: 50px;
+  align-items: center;
+}
+.match-found-heading{
+font-size: 30px;
+color: #101828;
 }
 .sliderdiv {
   width: 290px;
@@ -1151,7 +1155,7 @@ overflow-y: auto;
 .homeHeader>div:nth-child(1){
   display:flex;
   position: absolute;
-  left: 0%;
+  left: 10px;
   top: 50%;
   transform: translateY(-50%);
 }
