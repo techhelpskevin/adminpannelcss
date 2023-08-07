@@ -1264,6 +1264,7 @@ footer.footerdiv hr {
  flex-wrap: wrap;
  padding: 30px;
  padding-bottom: 0px;
+ gap: 8px;
 }
 .rowicon>div {
   display: flex;
@@ -1280,8 +1281,7 @@ footer.footerdiv hr {
   object-fit: contain;
 }
 .rowicon button {
-  width: 30vh;
-  height: 8vh;
+  flex: 1;
   font-size: x-large;
 }
 .filterbutton
