@@ -965,7 +965,7 @@ box-shadow: 6px 0px 18px 0px rgba(0, 0, 0, 0.06);
   min-width: auto!important;
   background-color: transparent!important;
 }
-.App>div.detail-screen,.App>div.home-screen{
+.App>div.detail-screen,.App>div.home-screen,.App>div.search-result-screen{
   margin-left: 0px!important;
 }
 .abc{
