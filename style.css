@@ -929,6 +929,9 @@ div .container ul {
   display: flex !important;
   justify-content:space-between;
 }
+.searchdiv .css-s18byi .css-1m5f78l>div{
+  flex:1;
+}
 .result-searchdiv {
   margin-top: 50px;
 }
