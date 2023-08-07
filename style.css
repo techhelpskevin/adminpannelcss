@@ -378,9 +378,6 @@ justify-content:space-between;
   align-items: start !important;
 }
 
-.detailcardheading {
-
-}
 .detailicondiv {
   display: flex;
   gap: 16px;
