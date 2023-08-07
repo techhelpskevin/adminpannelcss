@@ -1495,7 +1495,9 @@ color:#ffc868;
   .result-searchdiv .searchdiv {
     display: flex !important;
     flex-direction: column;
-  }
+    margin-left: 20px;
+    margin-right: 20px;
+}
   .result-searchdiv .searchdiv div button {
     display: flex !important;
     flex-direction: column !important;
