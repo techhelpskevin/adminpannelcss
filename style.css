@@ -1113,6 +1113,8 @@ font-size: 13px;
 .lowercontainer {
   display: flex;
   gap: 32px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 .detail-image-div {
   display: flex;
@@ -1245,8 +1247,12 @@ footer.footerdiv hr {
   justify-content: left;
   text-align: left;
 }
-.infodiv {
-  width: 30em;
+.infodiv h3{
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #2f2a4a;
 }
 .rowicon {
   display: grid;
