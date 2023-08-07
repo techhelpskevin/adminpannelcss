@@ -976,6 +976,7 @@ div .container ul {
 } 
 .result-searchdiv {
   margin-top: 50px;
+  padding-bottom: 50px;
 }
 .cardBodyContainer {
   display: flex;
