@@ -857,7 +857,7 @@ div .container ul {
   outline: none;
   color: #4677c3;
   font-weight: 500;
-  background-color: aliceblue;
+  background-color: transparent;
 }
 .MuiPaper-elevation4 {
   box-shadow: none !important;
