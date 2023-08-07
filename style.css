@@ -1221,6 +1221,10 @@ footer.footerdiv hr {
 }
 .detail-button {
   background-color: #086c74 !important;
+  padding: 16px 48px;
+  width: auto;
+  font-size: 24px;
+  margin-top: 24px;
 }
 
 .other-images {
@@ -1255,19 +1259,22 @@ footer.footerdiv hr {
   color: #2f2a4a;
 }
 .rowicon {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 8em;
-  margin-left: 5em;
-  margin-top: 1.2em;
-  width: 600px !important;
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ padding: 30px;
 }
-.rowicon div {
-  font-size: small;
-  font-weight: 600;
-  display: grid;
-  grid-gap: 0px !important;
-  width: 30%;
+.rowicon>div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #101828;
+}
+.rowicon>div img{
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
 }
 .rowicon button {
   width: 30vh;
@@ -1283,8 +1290,8 @@ footer.footerdiv hr {
   font-weight: 600 !important;
 }
 .detail-icon-div {
-  background-color: #f4f4f4;
-  border: 1px solid #000;
+  background-color: rgb(245, 245, 245);
+  border:1px solid rgb(153, 153, 153);
   border-radius: 4px;
   flex: 1;
 }
