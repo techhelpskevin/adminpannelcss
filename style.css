@@ -292,6 +292,7 @@ article.home-page-banner::after{
 .cardBodyContainer .filter-button-div .MuiButtonBase-root{
   box-shadow:none;
       border: 1px solid #d4d4d4;
+  border-radius:8px;
 }
 .filterbutton .css-b62m3t-container .css-13cymwt-control {
   background-color: white !important;
