@@ -1165,8 +1165,8 @@ footer.footerdiv hr {
 .toogle-filter div {
   width: 100%;
   border-radius: 8px;
-  border: 1px solid hsl(0deg 0% 99.7% / 78.8%);
-  height: 2.5em;
+  height: 40px;
+  border: 1px solid #d4d4d4;
   background-color: white;
 }
 .toogle-filter {
