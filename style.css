@@ -787,10 +787,6 @@ div .container ul {
   background-color: white !important ;
   color: #4677c3 !important;
   text-transform: capitalize;
-  border: 2px solid #ebeff2 !important;
-  border-right: none !important;
-  border-left: none !important;
-  padding: 0% !important;
   height: 50px !important;
 }
 
