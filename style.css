@@ -1308,6 +1308,9 @@ footer.footerdiv hr {
     border-bottom: 2px solid #9a9a9b;
     width: 100%;
 }
+.infodiv{
+  white-space: pre-line;
+}
 .toogle-filter div {
   width: 100%;
   border-radius: 8px;
@@ -1329,6 +1332,11 @@ footer.footerdiv hr {
 }
 .detail-button[variant="outlined"]{
   position: absolute;
+  padding: 8px;
+  font-size: 14px;
+  background-color: rgb(245, 245, 245)!important;
+  color: rgb(6, 105, 114);
+  border: 1px solid rgb(6, 105, 114);
 }
 .other-images {
 width: 100%;
