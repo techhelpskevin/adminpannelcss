@@ -1205,6 +1205,7 @@ height: 190px!important;
 .detail-image-div {
   display: flex;
   height: 36em;
+  position: relative;
 }
 .detail-image-div .main-images{
   flex: 1;
@@ -1326,7 +1327,9 @@ footer.footerdiv hr {
   width: auto;
   font-size: 24px;
 }
-
+.detail-button[variant="outlined"]{
+  position: absolute;
+}
 .other-images {
 width: 100%;
 }
