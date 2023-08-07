@@ -386,6 +386,10 @@ align-items: flex-start;
   align-items: center;
   justify-content: center;
 }
+.MuiPagination-ul li .Mui-selected{
+  border-radius: none;
+  background-color: rgba(25, 118, 210, 0.24);
+}
 .detailcardheadingdiv {
   margin: auto !important;
   padding: 8px 16px 8px 16px;
