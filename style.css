@@ -784,10 +784,11 @@ div .container ul {
 }
 
 .tablehead {
-  background-color: white !important ;
-  color: #4677c3 !important;
+  background-color: white !important;
+  color: #334D6E !important;
   text-transform: capitalize;
   height: 50px !important;
+  opacity: 0.5;
 }
 
 .tablebody {
@@ -807,10 +808,7 @@ div .container ul {
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
   font-weight: 500 !important;
-  border: 2px solid #ebeff2;
-  border-top: none !important;
-  border-right: none !important;
-  border-left: none !important;
+  border-bottom: 1px solid #ebeff2;
 }
 .tablediv {
   background-color: white;
