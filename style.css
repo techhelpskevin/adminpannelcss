@@ -933,8 +933,9 @@ div .container ul {
 }
 .cardBodyContainer {
   display: flex;
+  flex-direction:column;
   gap: 50px;
-  background-color: #ececec !important;
+  background-color: #F4F4F4 !important;
 }
 
 .default-home-cards .searchdiv .css-d9xncm {
