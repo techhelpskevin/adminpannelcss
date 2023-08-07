@@ -912,7 +912,7 @@ box-shadow: 6px 0px 18px 0px rgba(0, 0, 0, 0.06);
 #sidebar {
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
+  padding-top: 0px;
   justify-content: flex-start;
 }
 .sidebarcontainer a{
