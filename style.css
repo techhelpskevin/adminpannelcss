@@ -756,6 +756,7 @@ div .container ul {
 .modal-content .modal-body .container {
   width: fit-content !important;
   background-color: white;
+  margin-top: 0px;
 }
 
 .modal-content .modal-body .container button {
