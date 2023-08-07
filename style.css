@@ -1107,7 +1107,7 @@ font-size: 13px;
   width: 320px;
 }
 .css-rhsghg{
-height: 190px;
+height: 190px!important;
 }
 .MuiCardContent-root .MuiTypography-h6{
   text-align:center;
