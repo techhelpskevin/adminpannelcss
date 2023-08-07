@@ -373,10 +373,15 @@ align-items: flex-start;
 .css-1oitmrd-MuiButtonBase-root-MuiCardActionArea-root {
   -webkit-justify-content: left !important;
 }
-
+.MuiPagination-ul li {
+  height:32px;
+  width:32px;
+  border:1px solid rgb(16, 24, 40);
+  background-color: #fff;
+}
 .detailcardheadingdiv {
   margin: auto !important;
-  padding: 8px 0px 8px 16px;
+  padding: 8px 16px 8px 16px;
   background-color: #d4d4d4;
   display: flex;
   border-bottom: 2px solid rgb(119, 119, 119);
