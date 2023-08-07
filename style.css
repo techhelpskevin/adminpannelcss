@@ -943,6 +943,12 @@ box-shadow: 6px 0px 18px 0px rgba(0, 0, 0, 0.06);
 .App>div{
   margin-left: 300px;
 }
+.abc{
+  width: auto;
+}
+.card-body{
+padding: 0px;
+}
 .tablebody button:nth-child(2) {
   background-color: rgb(222, 31, 31) !important;
   color: white !important;
