@@ -923,10 +923,12 @@ box-shadow: 6px 0px 18px 0px rgba(0, 0, 0, 0.06);
 .sidebarcontainer a svg{
   height: 32px;
   width: 32px;
+  margin-right: 10px;
 }
 .sidebarcontainer a h6{
   color: #109CF1;
   font-size: 16px;
+  margin: 0px;
   text-transform: uppercase;
 }
 
