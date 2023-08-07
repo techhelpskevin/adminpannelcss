@@ -764,6 +764,10 @@ div .container ul {
   justify-content: center;
   box-shadow: none;
   text-align: center;
+  gap:10px;
+}
+.modal-content .modal-body .container h2.lbel{
+  margin: 0px;
 }
 
 .modal-content .modal-body .container button {
