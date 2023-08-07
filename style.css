@@ -1074,6 +1074,7 @@ padding: 0px!important;
   padding-bottom:0px!important;
 }
 .MuiCardContent-root>div:nth-child(3){
+  display: flex;
   justify-content:space-between;
   gap:0px!important;
 }
