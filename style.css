@@ -364,10 +364,10 @@ article.home-page-banner::after{
 
 .detailcardheadingdiv {
   margin: auto !important;
- padding: 8px 0px 8px 16px;
+  padding: 8px 0px 8px 16px;
   background-color: #d4d4d4;
   display: flex;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgb(119, 119, 119);
 }
 #detailleftdiv {
   padding: 0% !important;
