@@ -872,6 +872,9 @@ div .container ul {
   border-radius: 0px;
   border: none;
 }
+input[type="file"].inputtag{
+  width: auto;
+}
 textarea.inputtag{
 padding: 10px;
     border-radius: 5px;
