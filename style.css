@@ -1595,6 +1595,7 @@ color:#ffc868;
   border: none;
   font-size: 24px; /* adjust as needed */
   color: #000; /* adjust as needed */
+  padding: 6px!important;
 }
 .close-button  svg{
   color: #fff;
