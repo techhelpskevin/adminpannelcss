@@ -1233,7 +1233,6 @@ footer.footerdiv hr {
   padding: 16px 48px;
   width: auto;
   font-size: 24px;
-  margin-top: 24px;
 }
 
 .other-images {
@@ -1275,6 +1274,7 @@ footer.footerdiv hr {
 }
 .rowicon#rowicon-btn{
   gap: 32px;
+  margin-bottom: 0px;
 }
 
 .rowicon>div {
