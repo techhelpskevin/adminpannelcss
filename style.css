@@ -1451,7 +1451,9 @@ color:#ffc868;
   }
   .default-home-cards .searchdiv {
     gap: 50px;
-    width: 60% !important;
+    width: 100% !important;
+    margin-left: 20px;
+    margin-right: 20px;
     justify-content: center;
     display: flex;
     flex-direction: column;
