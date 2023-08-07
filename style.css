@@ -949,6 +949,9 @@ box-shadow: 6px 0px 18px 0px rgba(0, 0, 0, 0.06);
 .card-body{
 padding: 0px!important;
 }
+.card-body>div:nth-child(1) button{
+width: auto;
+}
 .tablebody button:nth-child(2) {
   background-color: rgb(222, 31, 31) !important;
   color: white !important;
