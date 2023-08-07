@@ -380,6 +380,7 @@ align-items: flex-start;
 }
 .MuiPagination-ul{
   gap:4px;
+  justify-content: flex-end;
 }
 .MuiPagination-ul li {
   height:32px;
@@ -983,7 +984,10 @@ div .container ul {
   flex-direction:column;
   background-color: #F4F4F4 !important;
 }
-
+.css-1v2gfp5{
+  font-size: 15px;
+  font-weight: bold;
+}
 .default-home-cards .searchdiv .css-d9xncm {
   max-width:280px;
   margin-top: 0% !important;
