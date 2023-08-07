@@ -833,6 +833,7 @@ div .container ul {
   display: flex;
   flex-direction: row;
   background-color: white;
+  align-items: end;
 }
 .lbel {
   color: #109CF1;
