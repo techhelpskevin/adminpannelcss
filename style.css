@@ -281,8 +281,8 @@ article.home-page-banner::after{
   width: 290px;
 }
 .cardBodyContainer .filter-button-div {
-  padding-top: 40px;
-  padding-bottom:40px;
+  padding-top: 20px;
+  padding-bottom:20px;
   display: flex;
   gap:20px;
   justify-content: center;
