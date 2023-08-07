@@ -873,7 +873,7 @@ div .container ul {
   border: none;
 }
 input[type="file"].inputtag{
-  width: auto;
+  width: auto!important;
 }
 textarea.inputtag{
 padding: 10px;
