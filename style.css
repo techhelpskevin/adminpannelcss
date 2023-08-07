@@ -839,7 +839,7 @@ div .container ul {
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
   font-weight: 500 !important;
-  margin: 9px;
+  text-align: left;
 }
 
 .labediv {
