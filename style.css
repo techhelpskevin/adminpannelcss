@@ -1414,6 +1414,7 @@ color:#ffc868;
 @media (min-width: 321px) and (max-width: 460px) {
   .home-page-banner {
     width: 100%;
+    height: 260px;
   }
   .contentdiv {
     width: 100%;
@@ -1428,7 +1429,8 @@ color:#ffc868;
   }
 
   .home-page-banner h1 {
-    font-size: 100% !important;
+    font-size: 32px !important;
+    line-height: 38px;
   }
   .select-city-button {
     width: 20% !important;
