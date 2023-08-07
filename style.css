@@ -331,12 +331,8 @@ article.home-page-banner::after{
 .css-t3ipsp-control {
   width: 200px;
 }
-.filterbutton {
-  //background-color: white !important;
-  //color: black !important;
-  //border-radius: 8px;
-  //height: fit-content!;
-  //font-weight: 600 !important;
+.filterbutton svg{
+  color:#006d77;
 }
 
 .contentdiv {
