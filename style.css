@@ -1430,7 +1430,7 @@ color:#ffc868;
     height: 260px;
   }
   .contentdiv {
-    width: 100%;
+    width: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     flex-wrap: wrap;
