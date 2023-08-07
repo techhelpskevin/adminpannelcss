@@ -341,7 +341,10 @@ article.home-page-banner::after{
 
 .contentdiv {
   display: flex !important;
-justify-content:space-between;
+justify-content:space-around;
+margin-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
 }
 .contentdiv>div{
   display:flex;
@@ -370,6 +373,16 @@ justify-content:space-between;
   background-color: #d4d4d4;
   display: flex;
   border-bottom: 2px solid rgb(119, 119, 119);
+  justify-content: space-between;
+  align-items: center;
+}
+.detailcardheadingdiv .MuiTypography-root{
+  font-size: 18px;
+  margin: 0px;
+  color: #101828;
+}
+.detailcardheadingdiv .MuiTypography-root:hover{
+  text-decoration: underline;
 }
 #detailleftdiv {
   padding: 0% !important;
