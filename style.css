@@ -1079,6 +1079,7 @@ padding: 0px!important;
   gap:0px!important;
 }
 .MuiCardContent-root>div:nth-child(3)>div{
+  display: flex;
   align-items:center;
   height:50px;
   gap:8px;
@@ -1123,6 +1124,7 @@ height: 190px!important;
   text-decoration:underline;
 }
 .MuiButtonBase-root>div:nth-child(3){
+  display: flex;
       justify-content: space-between;
     align-items: end;
   margin-top:0px!important;
