@@ -984,7 +984,8 @@ font-size: 13px;
   font-weight:600;
 }
 .MuiButtonBase-root .MuiCardMedia-img{
-  height:190px;
+   height: 260px;
+  width: 320px;
 }
 .MuiCardContent-root .MuiTypography-h6{
   text-align:center;
