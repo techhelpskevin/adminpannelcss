@@ -1608,6 +1608,11 @@ color:#ffc868;
 .modal-body {
   padding: 10px;
 }
+.modal-body .btn{
+display: inline-block;
+margin: 0px;
+margin-right: 10px;
+}
 
 /* extra css  */
 .logodiv a img {
