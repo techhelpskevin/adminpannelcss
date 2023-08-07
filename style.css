@@ -832,7 +832,7 @@ div .container ul {
   display: flex;
   flex-direction: column;
   background-color: white;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .lbel {
   color: #109CF1;
