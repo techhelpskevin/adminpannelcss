@@ -938,7 +938,6 @@ div .container ul {
 .cardBodyContainer {
   display: flex;
   flex-direction:column;
-  gap: 50px;
   background-color: #F4F4F4 !important;
 }
 
