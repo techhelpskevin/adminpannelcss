@@ -1271,8 +1271,7 @@ footer.footerdiv hr {
  display: flex;
  justify-content: space-between;
  flex-wrap: wrap;
- padding: 30px;
- padding-bottom: 0px;
+ margin-bottom: 30px;
 }
 .rowicon#rowicon-btn{
   gap: 32px;
@@ -1309,6 +1308,7 @@ footer.footerdiv hr {
   border:1px solid rgb(153, 153, 153);
   border-radius: 4px;
   flex: 1;
+  padding: 30px;
 }
 .home-page-banner h1 {
       font-size: 56px;
