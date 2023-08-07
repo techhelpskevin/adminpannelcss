@@ -1412,6 +1412,12 @@ width: 100%;
 color:#ffc868;
 }
 @media (min-width: 321px) and (max-width: 460px) {
+  .default-home-footer-div {
+    padding: 20px;
+  }
+  .footerlowerdiv{
+    margin-right: 0px;
+  }
   article.home-page-banner {
     width: 100%;
     height: 260px;
