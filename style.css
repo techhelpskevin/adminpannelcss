@@ -789,6 +789,9 @@ div .container ul {
   text-transform: capitalize;
   height: 50px !important;
   opacity: 0.5;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .tablebody {
@@ -809,6 +812,8 @@ div .container ul {
   font-family: "Roboto", sans-serif;
   font-weight: 500 !important;
   border-bottom: 1px solid #ebeff2;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .tablediv {
   background-color: white;
