@@ -906,8 +906,8 @@ div .container ul {
   position: fixed;
   background-color: white;
   height: 100%;
-  width: 150px;
-  box-shadow: 4px 0 6px rgba(101, 100, 100, 0.5);
+  width: 256px;
+box-shadow: 6px 0px 18px 0px rgba(0, 0, 0, 0.06);
 }
 #sidebar {
   display: flex;
