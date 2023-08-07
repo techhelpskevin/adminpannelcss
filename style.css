@@ -79,9 +79,11 @@ article.home-page-banner::after{
   width: 150px !important;
 }
 .search-result-screen {
-  gap: 39px;
   min-height:100vh;
   margin-top: 20px !important;
+}
+.search-result-screen .homeHeader{
+justify-content: center;
 }
 .select-city-button .css-b62m3t-container .css-13cymwt-control {
   background-color: #006d77 !important;
@@ -361,7 +363,7 @@ align-items: flex-start;
 }
 .searchpagebuttondiv {
   flex-direction: column;
-  width: 100px;
+  align-items: flex-start!important;
 }
 .detailpagebutton {
   margin-top: 45px !important;
