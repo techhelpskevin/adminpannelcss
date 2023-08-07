@@ -1264,8 +1264,11 @@ footer.footerdiv hr {
  flex-wrap: wrap;
  padding: 30px;
  padding-bottom: 0px;
- gap: 8px;
 }
+.rowicon#rowicon-btn{
+  gap: 32px;
+}
+
 .rowicon>div {
   display: flex;
   align-items: center;
