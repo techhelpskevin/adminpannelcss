@@ -907,7 +907,6 @@ div .container ul {
 }
 
 .searchdiv {
-  width: 100%;
   display: flex !important;
   flex-wrap:wrap;
   gap: 20px;
@@ -917,7 +916,6 @@ div .container ul {
 }
 
 .result-searchdiv .searchdiv {
-  width: 100% !important;
   display: flex !important;
   flex-direction: column;
 }
