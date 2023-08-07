@@ -277,6 +277,9 @@ article.home-page-banner::after{
   gap: 50px;
   align-items: center;
 }
+.actioncontainer>div:nth-child(2){
+  width: 300px;
+}
 .match-found-heading{
 font-size: 30px;
 color: #101828;
