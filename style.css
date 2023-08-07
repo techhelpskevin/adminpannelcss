@@ -341,9 +341,7 @@ article.home-page-banner::after{
 
 .contentdiv {
   display: flex !important;
-  flex-direction: row;
-  gap: 50px;
-  width: 80%;
+justify-content:space-between;
 }
 .detailimages {
   margin-top: 30px;
