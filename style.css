@@ -821,9 +821,9 @@ div .container ul {
   width: fit-content !important;
 }
 
-/* .inputdiv .css-t3ipsp-control {
-  width: 324px !important;
-} */
+.css-t3ipsp-control:hover {
+  border-color: inherit !important;
+} 
 
 .inputdiv .css-b62m3t-container .css-1nmdiq5-menu div {
   background-color: #172b4d !important;
