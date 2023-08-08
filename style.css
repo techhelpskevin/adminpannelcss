@@ -1575,6 +1575,12 @@ width: 100%;
 color:#ffc868;
 }
 @media (min-width: 321px) and (max-width: 460px) {
+  .detailcomponent p {
+    font-size: 20px;
+}
+  .infodiv h3 {
+    font-size: 18px;
+}
   .lowercontainer {
     flex-direction: column;
     margin-left: 20px;
