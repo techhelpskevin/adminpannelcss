@@ -994,7 +994,6 @@ box-shadow: 6px 0px 18px 0px rgba(0, 0, 0, 0.06);
   justify-content: flex-start;
 }
 .MuiAppBar-positionFixed{
-  left: 256px!important;
   z-index: 1!important;
 }
 .sidebarcontainer a{
