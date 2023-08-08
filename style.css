@@ -937,6 +937,7 @@ padding: 10px;
   height: 100%;
   width: 256px;
   left: 0;
+  top: 0;
 box-shadow: 6px 0px 18px 0px rgba(0, 0, 0, 0.06);
 }
 #sidebar {
@@ -944,6 +945,9 @@ box-shadow: 6px 0px 18px 0px rgba(0, 0, 0, 0.06);
   flex-direction: column;
   padding-top: 0px;
   justify-content: flex-start;
+}
+.MuiAppBar-positionFixed{
+  left: 256px;
 }
 .sidebarcontainer a{
   margin: revert;
@@ -967,10 +971,12 @@ box-shadow: 6px 0px 18px 0px rgba(0, 0, 0, 0.06);
   background-color: #182c74 !important;
   color: white !important;
   border-radius: 4px;
+  width: auto;
   border: none;
 }
 .App>div{
   margin-left: 300px;
+  padding-top: 80px;
   min-width: auto!important;
   background-color: transparent!important;
 }
@@ -1064,7 +1070,7 @@ padding: 0px!important;
   background-color: #F4F4F4 !important;
 }
 .css-1v2gfp5{
-  font-family: 'Chivo', sans-serif;
+  font-family: 'Chivo', sans-serif!important;
   font-size: 15px!important;
   font-weight: bold!important;
 }
@@ -1201,7 +1207,7 @@ height: 190px!important;
   position: unset;
   margin: auto;
   width: 30px !important;
-  background-color: black !important;
+  background-color: #152C70 !important;
   display: flex;
   align-items: center;
   justify-content: center;
