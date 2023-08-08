@@ -332,10 +332,11 @@ font-weight: 400;
   background-color:#fff;
 }
 .filterbutton .css-b62m3t-container .css-13cymwt-control {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
   background-color: white !important;
   color: black !important;
   border: none;
-  border-radius: 8px;
+  border-radius: 8px!important;
   height: 40px;
   border: 1px solid #d4d4d4;
 }
