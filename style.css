@@ -861,6 +861,9 @@ div .container ul {
   margin-bottom: 10px;
   width: 48%;
 }
+.css-8mmkcg{
+  color: #ccc;
+}
 .lbel {
   color: #109CF1;
   font-family: "Montserrat", sans-serif;
@@ -886,6 +889,11 @@ div .container ul {
   background-color: transparent;
   border-radius: 0px;
   border: none;
+  padding: 0px;
+  height: 36px;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid #ccc;
 }
 input[type="file"].inputtag{
   width: auto!important;
