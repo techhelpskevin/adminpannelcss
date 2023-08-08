@@ -70,6 +70,7 @@ article.home-page-banner::after{
   width: 300px;
 }
 .select-range div div span {
+  font-family: 'Chivo', sans-serif;
   font-size: 15px;
   font-weight: bold;
 }
@@ -1303,6 +1304,7 @@ display:flex;
   gap:24px;
 }
 .footer-copyright p.copyright {
+  font-family: Noto Sans,sans-serif;
   float: left;
   font-size: medium;
   font-weight: 600;
