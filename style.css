@@ -1101,8 +1101,8 @@ padding: 0px!important;
 .cardBodyContainer {
   display: flex;
   background-color: #F4F4F4 !important;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px;
+  align-items: flex-start;
 }
 .css-1v2gfp5{
   font-family: 'Chivo', sans-serif!important;
