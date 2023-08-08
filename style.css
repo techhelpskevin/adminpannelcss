@@ -1575,6 +1575,9 @@ width: 100%;
 color:#ffc868;
 }
 @media (min-width: 321px) and (max-width: 460px) {
+  .detail-icon-div {
+    padding: 20px;
+}
   .detailcomponent p {
     font-size: 20px;
 }
