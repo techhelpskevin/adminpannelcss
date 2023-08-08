@@ -25,6 +25,9 @@ button {
   cursor: pointer;
 
 }
+.css-1sucic7 {
+  z-index: 999999999999;
+}
 
 h2 {
   text-align: center;
