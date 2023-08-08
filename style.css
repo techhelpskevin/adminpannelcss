@@ -1575,6 +1575,12 @@ width: 100%;
 color:#ffc868;
 }
 @media (min-width: 321px) and (max-width: 460px) {
+  .lowercontainer {
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
   .footer-social-icon {
     gap: 12px;
 }
