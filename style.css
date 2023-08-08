@@ -1576,6 +1576,10 @@ width: 100%;
 color:#ffc868;
 }
 @media (min-width: 321px) and (max-width: 460px) {
+  .default-home-footer-div .footerlink img {
+    height: 90px;
+    width: 90px;
+}
   .scroll-to-top {
     right: 20px;
     bottom: 3px;
