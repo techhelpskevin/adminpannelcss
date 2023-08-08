@@ -1365,6 +1365,8 @@ footer.footerdiv hr {
 .infodiv{
   white-space: pre-line;
   font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
 }
 .toogle-filter div {
   width: 100%;
