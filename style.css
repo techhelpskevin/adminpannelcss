@@ -468,6 +468,7 @@ align-items: flex-start;
 
 .select-city-button {
   width: 150px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .select-city-button svg{
 color: #fff;
