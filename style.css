@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&display=swap');
+
+
 .contain {
   margin: 0 auto;
   margin-top: 100px;
@@ -153,6 +156,8 @@ article.home-page-banner::after{
   background-color: #006d77 !important;
 }
 .home-screen-card-section-heading {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 700;
   font-size: 42px;
   margin-top:50px;
   line-height:44px;
@@ -244,6 +249,8 @@ article.home-page-banner::after{
   width: 100%;
 }
 .home-screen-card-section-bottom h2 {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 700;
   font-size: 45px !important;
   margin-top: 70px;
     margin-bottom: 0px;
@@ -287,9 +294,10 @@ article.home-page-banner::after{
   width: 300px;
 }
 .match-found-heading{
+  font-family: 'Chivo', sans-serif;
 font-size: 30px;
 color: #101828;
-font-weight: 500;
+font-weight: 400;
 }
 .sliderdiv {
   width: 290px;
@@ -977,6 +985,8 @@ padding: 0px!important;
 .card-body>div:nth-child(1){
   padding-top: 36px;
   padding-bottom: 24px;
+  display: flex;
+  gap: 20px;
 }
 .card-body>div:nth-child(1) button{
   width: auto;
@@ -1418,6 +1428,8 @@ width: 100%;
   padding: 30px;
 }
 .home-page-banner h1 {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 700;
       font-size: 56px;
     color: #fafafa;
     line-height: 66px;
