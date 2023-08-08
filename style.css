@@ -864,6 +864,7 @@ div .container ul {
   display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: end;
 }
 .subform {
   display: flex;
