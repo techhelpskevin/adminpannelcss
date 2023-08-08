@@ -1005,8 +1005,8 @@ z-index: 2;
 top: 12px;
 }
 .admin-menu-button svg{
-  height: 1.6rem;
-  width: 1.6rem;
+  height: 1.6rem!important;
+  width: 1.6rem!important;
 }
 .css-1ujsas3 svg{
   height: 1rem;
