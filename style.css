@@ -1576,6 +1576,9 @@ width: 100%;
 color:#ffc868;
 }
 @media (min-width: 321px) and (max-width: 460px) {
+  .footer-copyright p.copyright{
+    line-height: 1.4;
+  }
   .detail-button {
     padding: 8px 24px;
     font-size: 16px;
