@@ -465,7 +465,9 @@ align-items: flex-start;
   display: flex;
   gap: 16px;
 }
-
+.card{
+margin-top: 80px;
+}
 .select-city-button {
   width: 150px;
   font-family: Arial, Helvetica, sans-serif;
