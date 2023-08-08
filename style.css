@@ -1367,6 +1367,8 @@ overflow-y: auto;
   transform: translateY(-50%);
 }
 .homeHeader .MuiButtonBase-root svg{
+  height: 2rem!important;
+  width: 2rem!important;
   color:#000!important;
 }
 .logodiv .headerlink {
