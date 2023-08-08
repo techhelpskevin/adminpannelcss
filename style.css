@@ -1576,6 +1576,10 @@ width: 100%;
 color:#ffc868;
 }
 @media (min-width: 321px) and (max-width: 460px) {
+  .detail-button {
+    padding: 8px 24px;
+    font-size: 16px;
+}
   .home-screen-card-section-heading {
     font-size: 26px;
     line-height: 36px;
@@ -1585,9 +1589,12 @@ color:#ffc868;
 }
   .default-home-footer-div {
     padding: 20px;
+
   }
   .footerlowerdiv{
     margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   article.home-page-banner {
     width: 100%;
