@@ -93,7 +93,7 @@ article.home-page-banner::after{
 .select-city-button .css-b62m3t-container .css-13cymwt-control {
   background-color: #006d77 !important;
   border: none;
-  border-radius: 8px;
+  border-radius: 6px!important;
   text-align: center;
   height: 40px;
   width: auto;
