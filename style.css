@@ -850,12 +850,16 @@ div .container ul {
 }
 .formcontainer {
   background-color: white !important;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .subform {
   display: flex;
   flex-direction: column;
   background-color: white;
   margin-bottom: 10px;
+  width: 48%;
 }
 .lbel {
   color: #109CF1;
