@@ -1364,6 +1364,7 @@ footer.footerdiv hr {
 }
 .infodiv{
   white-space: pre-line;
+  font-family: "Noto Sans", sans-serif;
 }
 .toogle-filter div {
   width: 100%;
@@ -1394,6 +1395,7 @@ footer.footerdiv hr {
   bottom: -17px;
   left: 30%;
   line-height: 21px;
+  font-family: "Noto Sans", sans-serif;
 }
 .other-images {
 width: 100%;
@@ -1412,6 +1414,7 @@ width: 100%;
   color: #2f2a4a!important;
   padding: 10px 0px;
   margin: 0px;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .detail-info-div {
@@ -1421,6 +1424,7 @@ width: 100%;
   text-align: left;
 }
 .infodiv h3{
+  font-family: "Noto Sans", sans-serif;
   margin: 0;
   font-size: 22px;
   font-weight: 700;
@@ -1446,6 +1450,7 @@ width: 100%;
   color: #101828;
   flex: 1;
   justify-content: center;
+  font-family: "Noto Sans", sans-serif;
 }
 .rowicon>div img{
   height: 40px;
