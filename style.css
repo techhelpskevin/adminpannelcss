@@ -117,7 +117,7 @@ article.home-page-banner::after{
   margin-top: 0px;
 }
 .css-hlgwow{
-  padding: 0px 8px;
+  padding: 0px 8px!important;
 }
 .actioncontainer div:nth-child(3) button {
   background-color: #006d77 !important;
