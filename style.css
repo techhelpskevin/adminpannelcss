@@ -919,7 +919,9 @@ div .container ul {
   background-color: transparent;
   border-radius: 0px;
   border: none;
-
+}
+.inputtag:focus{
+  border-bottom-color:red ;
 }
 input[type="file"].inputtag{
   width: auto!important;
