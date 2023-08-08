@@ -531,10 +531,12 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="password"] {
-  width: 90%;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+  width: 100%;
+  padding: 0px;
+  height: 36px;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid #ccc;
 }
 
 .addbtn {
@@ -889,11 +891,7 @@ div .container ul {
   background-color: transparent;
   border-radius: 0px;
   border: none;
-  padding: 0px;
-  height: 36px;
-  border-radius: 0px;
-  border: none;
-  border-bottom: 1px solid #ccc;
+
 }
 input[type="file"].inputtag{
   width: auto!important;
