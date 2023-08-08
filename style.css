@@ -991,10 +991,10 @@ box-shadow: 6px 0px 18px 0px rgba(0, 0, 0, 0.06);
   padding-left: 100px!important;
 }
 .admin-menu-button{
-position: fixed;
+position: fixed!important;
 width: 40px;
 height: 40px;
-color: #fff;
+color: #fff!important;
 left: 0;
 z-index: 2;
 top: 12px;
