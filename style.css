@@ -985,6 +985,9 @@ background-color: #fafafa;
   width: 32px;
   margin-right: 10px;
 }
+.css-b62m3t-container ~ .container{
+display: none;
+}
 .sidebarcontainer a h6{
   color: #109CF1;
   font-size: 16px;
