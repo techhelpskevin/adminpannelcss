@@ -987,6 +987,9 @@ padding: 10px;
   top: 0;
 box-shadow: 6px 0px 18px 0px rgba(0, 0, 0, 0.06);
 }
+.MuiToolbar-regular{
+  padding-left: 100px;
+}
 #sidebar {
   display: flex;
   flex-direction: column;
