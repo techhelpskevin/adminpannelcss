@@ -286,8 +286,10 @@ article.home-page-banner::after{
   background-color: white !important;
   height: 36px;
   border: none;
-  border-radius: 0px;
-  border-bottom: 1px solid #ccc;
+  border: none;
+  border-style: none;
+  border-radius: 0px!important;
+  border-bottom: 1px solid #ccc!important;
 }
 .actioncontainer {
   display: flex;
