@@ -318,6 +318,7 @@ font-weight: 400;
   padding-top: 20px;
   padding-bottom:20px;
   display: flex;
+  flex-direction: column;
   gap:20px;
   justify-content: center;
   border-top: 1px solid rgb(204, 204, 204);
@@ -1099,7 +1100,6 @@ padding: 0px!important;
 }
 .cardBodyContainer {
   display: flex;
-  flex-direction:column;
   background-color: #F4F4F4 !important;
 }
 .css-1v2gfp5{
