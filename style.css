@@ -1017,6 +1017,7 @@ width: 1rem;
 }
 .css-1ujsas3{
   padding-left: 3rem!important;
+  justify-content: flex-start;
 }
 #sidebar {
   display: flex;
