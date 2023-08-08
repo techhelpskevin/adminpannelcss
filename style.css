@@ -990,6 +990,15 @@ box-shadow: 6px 0px 18px 0px rgba(0, 0, 0, 0.06);
 .MuiToolbar-regular{
   padding-left: 100px!important;
 }
+.admin-menu-button{
+position: fixed;
+width: 40px;
+height: 40px;
+color: #fff;
+left: 0;
+z-index: 2;
+top: 12px;
+}
 #sidebar {
   display: flex;
   flex-direction: column;
