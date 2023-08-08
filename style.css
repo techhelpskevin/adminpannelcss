@@ -78,7 +78,7 @@ article.home-page-banner::after{
   font-weight: bold;
 }
 .filterbutton .css-b62m3t-container .css-t3ipsp-control {
-  width: 248.5px !important;
+  width: 100% !important;
 }
 
 .select-city-button .css-b62m3t-container .css-t3ipsp-control {
