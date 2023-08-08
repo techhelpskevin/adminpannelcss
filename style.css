@@ -955,6 +955,9 @@ box-shadow: 6px 0px 18px 0px rgba(0, 0, 0, 0.06);
   border-bottom:1px solid #EBEFF2;
   padding: 40px 20px;
 }
+.table-responsive{
+background-color: #fafafa;
+}
 .sidebarcontainer a svg{
   height: 32px;
   width: 32px;
