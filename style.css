@@ -425,7 +425,7 @@ align-items: flex-start;
 }
 .detailcardheadingdiv {
   margin: auto !important;
-  padding: 8px 16px 8px 16px;
+  padding: 16px 16px 16px 16px;
   background-color: #d4d4d4;
   display: flex;
   border-bottom: 2px solid rgb(119, 119, 119);
