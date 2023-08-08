@@ -900,6 +900,10 @@ div .container ul {
   margin-bottom: 10px;
   width: 48%;
 }
+.subform .css-hlgwow{
+  padding-left: 0px!important;
+  text-align: left;
+}
 .css-8mmkcg{
   color: rgb(128, 128, 128);
 }
