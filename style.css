@@ -1004,6 +1004,10 @@ left: 0;
 z-index: 2;
 top: 12px;
 }
+.admin-menu-button svg{
+  height: 1.6rem;
+  width: 1.6rem;
+}
 #sidebar {
   display: flex;
   flex-direction: column;
