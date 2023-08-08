@@ -1652,7 +1652,7 @@ color:#ffc868;
     flex-wrap: wrap;
     display: flex;
     flex-direction: row !important;
-    margin-top: 40px;
+    margin-top: 0px;
     width: 100%;
     padding-top: 20px !important;
     border: none;
@@ -1660,6 +1660,7 @@ color:#ffc868;
     border-bottom:1px solid rgb(212, 212, 212);
     border-image: initial;
     gap: 10px;
+    padding: 0px;
   }
   .result-searchdiv .searchdiv {
     display: flex !important;
