@@ -469,9 +469,13 @@ align-items: flex-start;
 margin-top: 80px;
 margin-bottom: 80px;
 }
+
 .card .css-b62m3t-container{
   width: 150px!important;
 }
+.filter-button-div .css-b62m3t-container{
+  width: auto!important;
+  }
 .select-city-button {
   width: 150px;
   font-family: Arial, Helvetica, sans-serif;
