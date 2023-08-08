@@ -817,6 +817,7 @@ div .container ul {
 .tablebody {
   background-color: white !important;
   border: none;
+  padding: 10px;
 }
 .tableborder {
   border-color: #ebeff2;
@@ -1018,6 +1019,8 @@ padding: 0px!important;
   color: white !important;
   border-radius: 4px;
   border: none;
+  width: 100%;
+  margin: 0;
 }
 
 .default-home-cards {
