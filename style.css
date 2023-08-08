@@ -904,6 +904,9 @@ div .container ul {
   padding-left: 0px!important;
   text-align: left;
 }
+.subform .css-13cymwt-control{
+  border: none;
+}
 .css-8mmkcg{
   color: rgb(128, 128, 128);
 }
