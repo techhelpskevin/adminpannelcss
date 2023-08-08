@@ -1576,6 +1576,12 @@ width: 100%;
 color:#ffc868;
 }
 @media (min-width: 321px) and (max-width: 460px) {
+  .scroll-to-top {
+    right: 20px;
+    bottom: 3px;
+    width: 30px;
+    height: 30px;
+}
   .footer-copyright p.copyright{
     line-height: 1.4;
   }
