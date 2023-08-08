@@ -1660,6 +1660,7 @@ color:#ffc868;
     border-image: initial;
     gap: 10px;
     padding: 0px;
+    height: auto;
   }
   .result-searchdiv .searchdiv {
     display: flex !important;
