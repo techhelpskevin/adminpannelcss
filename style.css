@@ -921,7 +921,7 @@ div .container ul {
   border: none;
 }
 .inputtag:focus{
-  border-bottom-color:red ;
+  border-bottom-color:#152C70 ;
 }
 input[type="file"].inputtag{
   width: auto!important;
