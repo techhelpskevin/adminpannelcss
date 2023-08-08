@@ -1015,6 +1015,9 @@ width: 1rem;
 .css-1ujsas3 h6{
   font-size: 1rem;
 }
+.css-1ujsas3{
+  padding-left: 3rem!important;
+}
 #sidebar {
   display: flex;
   flex-direction: column;
