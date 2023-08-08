@@ -1008,6 +1008,13 @@ top: 12px;
   height: 1.6rem;
   width: 1.6rem;
 }
+.css-1ujsas3 svg{
+  height: 1rem;
+width: 1rem;
+}
+.css-1ujsas3 h6{
+  font-size: 1rem;
+}
 #sidebar {
   display: flex;
   flex-direction: column;
