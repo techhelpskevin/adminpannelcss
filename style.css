@@ -1035,6 +1035,8 @@ display: none;
 }
 .App>div.detail-screen,.App>div.home-screen,.App>div.search-result-screen{
   margin-left: 0px!important;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .admin-dashboard-home{
   width: auto!important;
