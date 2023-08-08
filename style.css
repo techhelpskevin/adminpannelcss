@@ -284,6 +284,10 @@ article.home-page-banner::after{
 
 .css-13cymwt-control {
   background-color: white !important;
+  height: 36px;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #ccc;
 }
 .actioncontainer {
   display: flex;
