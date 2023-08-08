@@ -1005,7 +1005,6 @@ display: none;
 }
 .App>div{
   margin-left: 300px;
-  padding-top: 80px;
   min-width: auto!important;
   background-color: transparent!important;
 }
