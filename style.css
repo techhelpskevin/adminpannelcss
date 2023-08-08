@@ -1013,6 +1013,8 @@ top: 12px;
   align-items: center;
   border-bottom:1px solid #EBEFF2;
   padding: 40px 20px;
+  display: flex;
+  text-decoration: none;
 }
 .table-responsive{
 background-color: #fafafa;
@@ -1021,6 +1023,7 @@ background-color: #fafafa;
   height: 32px;
   width: 32px;
   margin-right: 10px;
+  color: #152C70!important;
 }
 .css-b62m3t-container ~ .container{
 display: none;
