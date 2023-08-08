@@ -825,6 +825,7 @@ div .container ul {
   border:none;
   border-bottom: 1px solid #ccc;
   border-color: #ccc !important; 
+  outline: none!important;
 } 
 
 .inputdiv .css-b62m3t-container .css-1nmdiq5-menu div {
