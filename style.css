@@ -116,6 +116,9 @@ article.home-page-banner::after{
   font-size: medium;
   margin-top: 0px;
 }
+.css-hlgwow{
+  padding: 0px 8px;
+}
 .actioncontainer div:nth-child(3) button {
   background-color: #006d77 !important;
   height: 40px !important;
