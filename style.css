@@ -1577,6 +1577,9 @@ color:#ffc868;
 @media (min-width: 321px) and (max-width: 460px) {
   .homeselect {
     gap: 10px!important;
+    justify-content: space-between!important;
+    padding-left: 10px;
+    padding-right: 10px;
 }
   .logodiv .headerlink{
     font-size: 18px;
