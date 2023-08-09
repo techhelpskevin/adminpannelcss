@@ -1674,6 +1674,7 @@ color:#ffc868;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 40px;
+    align-items: stretch;
 }
   .footer-social-icon {
     gap: 12px;
