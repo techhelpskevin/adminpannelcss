@@ -1726,7 +1726,12 @@ color:#ffc868;
   }
 }
 @media (min-width: 460px) and (max-width: 767px) {
- 
+  .home-screen-card-section-heading{
+    font-size: 32px;
+  }
+  .home-screen-card-section-bottom h2{
+    font-size: 32px;
+  }
   .homeHeader div:nth-child(2) {
     width: 100%;
   }
