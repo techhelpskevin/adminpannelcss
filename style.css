@@ -1700,6 +1700,9 @@ color:#ffc868;
   .select-city-button {
     width: auto !important;
   }
+  .select-city-button .css-b62m3t-container{
+    width: auto!important;
+  }
   .select-range {
     width: 40% !important;
   }
