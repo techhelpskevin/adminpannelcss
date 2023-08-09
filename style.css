@@ -1358,6 +1358,7 @@ width: 280px!important;
 
 .lowercontainer {
   display: flex;
+  align-items: flex-start;
   gap: 32px;
   margin-left: 60px;
   margin-right: 60px;
