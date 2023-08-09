@@ -1606,9 +1606,9 @@ width: 100%;
 color:#ffc868;
 }
 .loader-class{
-height: 2rem!important;
-width: 2rem!important;
-color: red!important;
+height: 4rem!important;
+width: 4rem!important;
+color: #086c74!important;
 z-index: 9999999!important;
 }
 @media (min-width: 321px) and (max-width: 460px) {
