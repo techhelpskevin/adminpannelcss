@@ -17,9 +17,7 @@ body{
 .contain h2{
   font-family: 'Chivo', sans-serif;
 }
-.contain button{
-  background-color: #182c74!important;
-}
+
 button {
   display: block;
   width: 100%;
@@ -31,6 +29,12 @@ button {
   border-radius: 5px;
   cursor: pointer;
 
+}
+.contain button{
+  background-color: #182c74!important;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 20px;
 }
 .css-1sucic7 {
   z-index: 999999999999;
