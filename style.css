@@ -1042,6 +1042,9 @@ top: 12px;
 width: 1rem;
 color: #152C70;
 }
+.css-8nphli .MuiTablePagination-actions button:nth-child(1){
+  margin-right: 10px;
+}
 .css-1ujsas3 h6{
   font-size: 1rem;
   margin-left: 0.5rem;
