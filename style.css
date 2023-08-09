@@ -355,6 +355,9 @@ align-items: center;
 .actioncontainer>div:nth-child(2){
   width: 300px;
 }
+.actioncontainer>div:nth-child(2)>div>div{
+  display: flex;
+}
 .match-found-heading{
   font-family: 'Chivo', sans-serif;
 font-size: 30px;
@@ -520,6 +523,7 @@ margin-bottom: 80px;
   width: auto!important;
   text-transform: uppercase;
   }
+  
 .select-city-button {
   width: 150px;
   font-family: Arial, Helvetica, sans-serif;
