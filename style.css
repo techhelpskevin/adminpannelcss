@@ -120,7 +120,7 @@ article.home-page-banner::after{
   margin-top: 0px;
 }
 .css-36lwkk{
-  flex-direction: initial;
+  flex-direction: initial!important;
 }
 .css-hlgwow{
   padding: 0px 8px!important;
