@@ -1610,7 +1610,13 @@ color:#ffc868;
     gap: 4px;
     margin-bottom: 0px;
 }
-  
+.rowicon {
+  margin-bottom: 20px;
+}
+.rowicon .detail-button{
+  font-size: 16px!important;
+  margin-top: 0px!important;
+}
   .detail-icon-div {
     padding: 20px 10px;
 }
