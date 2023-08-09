@@ -1620,6 +1620,14 @@ z-index: 9999999!important;
   font-family: 'Chivo', sans-serif;
 }
 @media (min-width: 321px) and (max-width: 460px) {
+  .card-body>div:nth-child(1) button {
+    padding: 10px 10px;
+  }
+  .card-body>div:nth-child(1) {
+    gap: 10px;
+    flex-direction: column;
+    width: 110px;
+  }
   .App>div {
     margin-left: 220px;
   }
