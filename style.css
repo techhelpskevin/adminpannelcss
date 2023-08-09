@@ -1581,6 +1581,7 @@ color:#ffc868;
   .actioncontainer {
     padding-left: 10px;
     padding-right: 10px;
+    gap: 10px;
   }
   .homeselect{
     width: auto!important;
