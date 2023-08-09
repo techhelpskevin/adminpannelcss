@@ -1700,7 +1700,7 @@ color:#ffc868;
     line-height: 38px;
   }
   .select-city-button {
-    width: 20% !important;
+    width: auto !important;
   }
   .select-range {
     width: 40% !important;
