@@ -1620,6 +1620,10 @@ z-index: 9999999!important;
   font-family: 'Chivo', sans-serif;
 }
 @media (min-width: 321px) and (max-width: 460px) {
+  .loader-class{
+    height: 2rem!important;
+    width: 2rem!important;
+    }
   .similar-option-title {
     margin-left: 20px;
     margin-right: 20px;
