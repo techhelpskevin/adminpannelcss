@@ -1605,6 +1605,12 @@ width: 100%;
 .home-page-banner h1 span{
 color:#ffc868;
 }
+.loader-class{
+height: 2rem;
+width: 2rem;
+color: red;
+z-index: 9999999;
+}
 @media (min-width: 321px) and (max-width: 460px) {
   .match-found-heading{
     font-size: 26px;
