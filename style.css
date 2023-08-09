@@ -1620,8 +1620,12 @@ z-index: 9999999!important;
   font-family: 'Chivo', sans-serif;
 }
 @media (min-width: 321px) and (max-width: 460px) {
+  .App>div {
+    margin-left: 220px;
+  }
   .sidebarcontainer{
     width: 200px;
+    top: 60px;
   }
   .loader-class{
     height: 2rem!important;
