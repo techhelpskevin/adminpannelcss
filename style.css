@@ -1726,9 +1726,7 @@ color:#ffc868;
   }
 }
 @media (min-width: 460px) and (max-width: 767px) {
-  .home-page-banner {
-    width: 300% !important;
-  }
+ 
   .homeHeader div:nth-child(2) {
     width: 100%;
   }
