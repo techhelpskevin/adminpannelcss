@@ -1575,6 +1575,10 @@ width: 100%;
 color:#ffc868;
 }
 @media (min-width: 321px) and (max-width: 460px) {
+  .rowicon>div img {
+    height: 24px;
+    width: 24px;
+}
   .other-images img {
     width: 100%;
     height: 80px;
@@ -1608,7 +1612,7 @@ color:#ffc868;
 }
   
   .detail-icon-div {
-    padding: 20px;
+    padding: 20px 10px;
 }
   .detailcomponent p {
     font-size: 20px;
