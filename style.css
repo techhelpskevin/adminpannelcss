@@ -94,6 +94,10 @@ article.home-page-banner::after{
 .select-range div {
   width: 300px;
 }
+.select-range>div>div {
+  display: flex;
+  justify-content: space-between;
+}
 .select-range div div span {
   font-family: 'Chivo', sans-serif;
   font-size: 15px;
