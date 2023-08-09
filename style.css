@@ -13,6 +13,9 @@ body{
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+.contain h2{
+  font-family: 'Chivo', sans-serif;
+}
 button {
   display: block;
   width: 100%;
