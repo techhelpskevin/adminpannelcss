@@ -1576,7 +1576,7 @@ color:#ffc868;
 }
 @media (min-width: 321px) and (max-width: 460px) {
   .homeselect{
-    width: auto;
+    width: auto!important;
   }
   .card .css-b62m3t-container {
     width: 80px!important;
