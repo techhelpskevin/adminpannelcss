@@ -122,9 +122,7 @@ article.home-page-banner::after{
 .css-36lwkk{
   flex-direction: initial!important;
 }
-.css-8nphli{
-padding-left: 0px!important;
-}
+
 .css-hlgwow{
   padding: 0px 8px!important;
 }
@@ -1031,6 +1029,9 @@ left: 0;
 z-index: 2;
 top: 12px;
 }
+.css-8nphli{
+  padding-left: 0px!important;
+  }
 .admin-menu-button svg{
   height: 1.6rem!important;
   width: 1.6rem!important;
