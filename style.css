@@ -42,7 +42,9 @@ h2 {
   gap: 10px;
   flex-direction: column;
 }
-
+.css-r8u8y9{
+  padding: 0px!important;
+}
 label {
   display: block;
   /* margin-bottom: 2px; */
