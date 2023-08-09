@@ -1664,6 +1664,11 @@ color:#ffc868;
     padding: 8px 24px;
     font-size: 16px;
 }
+.detail-button[variant="outlined"]{
+  padding: 6px;
+  font-size: 12px;
+  line-height: 11px;
+}
   .home-screen-card-section-heading {
     font-size: 26px;
     line-height: 36px;
