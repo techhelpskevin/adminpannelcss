@@ -1735,7 +1735,8 @@ color:#ffc868;
   }
 
   .home-page-banner h1 {
-    font-size: 100% !important;
+    font-size: 36px !important;
+    line-height: 52px;
   }
   .select-city-button {
     width: 20% !important;
