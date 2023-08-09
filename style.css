@@ -1575,6 +1575,9 @@ width: 100%;
 color:#ffc868;
 }
 @media (min-width: 321px) and (max-width: 460px) {
+  .card .css-b62m3t-container {
+    width: 80px!important;
+}
   .rowicon>div img {
     height: 24px;
     width: 24px;
