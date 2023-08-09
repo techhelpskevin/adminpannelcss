@@ -1687,7 +1687,7 @@ color:#ffc868;
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding: 20px;
+    padding: 20px 0px;
   }
   .cardBodyContainer .filter-button-div {
     background-color: #f4f4f4;
