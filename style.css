@@ -1575,6 +1575,11 @@ width: 100%;
 color:#ffc868;
 }
 @media (min-width: 321px) and (max-width: 460px) {
+  .rowicon#rowicon-btn {
+    gap: 4px;
+    margin-bottom: 0px;
+}
+  
   .detail-icon-div {
     padding: 20px;
 }
