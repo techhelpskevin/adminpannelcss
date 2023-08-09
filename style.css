@@ -1650,6 +1650,9 @@ z-index: 9999999!important;
   .App>div {
     margin-left: 220px;
   }
+  .contain{
+    width: 80%;
+  }
   .sidebarcontainer{
     width: 200px;
     top: 60px;
