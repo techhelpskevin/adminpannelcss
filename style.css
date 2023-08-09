@@ -339,7 +339,7 @@ article.home-page-banner::after{
   align-items: center;
 }
 .actioncontainer>div:nth-child(2){
-  width: 40%;
+  width: 300px;
 }
 .match-found-heading{
   font-family: 'Chivo', sans-serif;
