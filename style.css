@@ -1727,10 +1727,10 @@ color:#ffc868;
 }
 @media (min-width: 460px) and (max-width: 767px) {
   .home-screen-card-section-heading{
-    font-size: 32px;
+    font-size: 32px!important;
   }
   .home-screen-card-section-bottom h2{
-    font-size: 32px;
+    font-size: 32px!important;
   }
   .homeHeader div:nth-child(2) {
     width: 100%;
