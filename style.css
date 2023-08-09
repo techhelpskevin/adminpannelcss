@@ -316,7 +316,7 @@ article.home-page-banner::after{
   align-items: center;
 }
 .actioncontainer>div:nth-child(2){
-  width: 300px;
+  width: 40%;
 }
 .match-found-heading{
   font-family: 'Chivo', sans-serif;
