@@ -1735,7 +1735,7 @@ color:#ffc868;
   }
   .MuiButtonBase-root .MuiCardMedia-img {
     height: 180px;
-    width: 100%;
+    width: 100%!important;
 }
   .home-page-banner h1 {
     font-size: 26px !important;
