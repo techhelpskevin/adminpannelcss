@@ -1575,6 +1575,11 @@ width: 100%;
 color:#ffc868;
 }
 @media (min-width: 321px) and (max-width: 460px) {
+  .other-images img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+}
   .detail-image-div {
     height: auto;
     flex-direction: column;
