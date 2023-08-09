@@ -1741,6 +1741,7 @@ color:#ffc868;
     gap: 10px;
     padding: 0px 10px;
     height: auto;
+    box-sizing: border-box;
   }
   .result-searchdiv .searchdiv {
     display: flex !important;
