@@ -1198,7 +1198,6 @@ padding: 0px!important;
   flex-wrap:wrap;
   gap: 12px;
  justify-content: center;
-    margin-left: 20px;
 }
 
 .result-searchdiv .searchdiv {
@@ -1225,6 +1224,9 @@ padding: 0px!important;
 .result-searchdiv {
   flex: 1;
   margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 50px;
 }
 .cardBodyContainer {
   display: flex;
