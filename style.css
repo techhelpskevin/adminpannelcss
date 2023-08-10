@@ -1228,6 +1228,7 @@ padding: 0px!important;
   background-color: #F4F4F4 !important;
   padding: 50px;
   align-items: flex-start;
+  flex-direction: column;
 }
 .css-1v2gfp5{
   font-family: 'Chivo', sans-serif!important;
