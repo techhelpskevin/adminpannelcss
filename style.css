@@ -1228,6 +1228,7 @@ padding: 0px!important;
   display: flex;
   background-color: #F4F4F4 !important;
   padding: 50px;
+  padding-top: 0px;
   flex-direction: column;
 }
 .css-1v2gfp5{
