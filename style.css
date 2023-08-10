@@ -1642,6 +1642,9 @@ z-index: 9999999!important;
   font-family: 'Chivo', sans-serif;
 }
 @media (min-width: 321px) and (max-width: 460px) {
+  .contentdiv>div{
+    width: 46%;
+  }
   .contentdiv>div p{
     font-size: 12px!important;
   }
