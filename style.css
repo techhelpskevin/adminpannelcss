@@ -1324,6 +1324,9 @@ width: 280px!important;
 .css-1dimb5e-singleValue {
   color: #000 !important;
 }
+.select-city-button .css-1dimb5e-singleValue{
+  color: #fff!important;
+}
 .default-home-cards .searchdiv .css-d9xncm:hover {
   -webkit-transform: scale(1.05); /* Increase size by 5% on hover */
   transform: scale(1.05); /* Increase size by 5% on hover */
