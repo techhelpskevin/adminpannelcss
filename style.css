@@ -1770,8 +1770,9 @@ z-index: 9999999!important;
   line-height: 11px;
 }
   .home-screen-card-section-heading {
-    font-size: 26px;
+    font-size: 28px;
     line-height: 36px;
+    margin-bottom: 70px;
 }
 .home-screen-card-section-bottom h2 {
   font-size: 26px !important;
