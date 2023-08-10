@@ -1641,6 +1641,14 @@ z-index: 9999999!important;
   font-family: 'Chivo', sans-serif;
 }
 @media (min-width: 321px) and (max-width: 460px) {
+  .result-searchdiv {
+
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+
   .searchpagebuttondiv {
     width: 100%!important;
     flex-direction: row;
@@ -1855,11 +1863,10 @@ z-index: 9999999!important;
     align-items: center;
     flex-direction: column;
   }
+
   .cardBodyContainer {
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    padding: 20px 0px;
   }
   .cardBodyContainer .filter-button-div {
     background-color: #f4f4f4;
