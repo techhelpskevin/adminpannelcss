@@ -1222,12 +1222,12 @@ padding: 0px!important;
 } 
 .result-searchdiv {
   flex: 1;
+  margin-top: 50px;
 }
 .cardBodyContainer {
   display: flex;
   background-color: #F4F4F4 !important;
   padding: 50px;
-  align-items: flex-start;
   flex-direction: column;
 }
 .css-1v2gfp5{
