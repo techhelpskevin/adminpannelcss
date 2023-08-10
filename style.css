@@ -1642,6 +1642,9 @@ z-index: 9999999!important;
   font-family: 'Chivo', sans-serif;
 }
 @media (min-width: 321px) and (max-width: 460px) {
+  .default-home-cards .searchdiv .css-d9xncm{
+    max-width: 100%;
+  }
   .modal-content{
     margin-left: 20px;
     margin-right: 20px;
