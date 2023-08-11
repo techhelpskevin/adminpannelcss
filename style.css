@@ -73,6 +73,9 @@ article.home-page-banner {
     align-items: center;
     justify-content: space-around;
   position:relative;
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 article.home-page-banner::after{
   content:'';
