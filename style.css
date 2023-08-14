@@ -147,6 +147,7 @@ article.home-page-banner::after{
 }
 .css-36lwkk{
   flex-direction: initial!important;
+  justify-content: flex-end;
 }
 
 .css-hlgwow{
