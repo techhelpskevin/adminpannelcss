@@ -943,8 +943,8 @@ div .container ul {
 .tablediv table thead{
   border-bottom: 1px solid #ebeff2;
 }
-.tablediv .tablebody tr:nth-child(2n){
-background-color: rgba(25, 118, 210, 0.04);
+.tablediv .tablebody tr:nth-child(2n),.tablediv .tablebody tr:nth-child(2n) td{
+background-color: rgba(25, 118, 210, 0.04)!important;
 }
 .formcontainer {
   background-color: white !important;
