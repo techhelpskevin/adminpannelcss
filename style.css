@@ -2090,6 +2090,7 @@ display: inline-block;
 margin: 0px;
 margin-right: 10px;
 background-color: #152C70;
+white-space: nowrap;
 }
 
 /* extra css  */
