@@ -922,7 +922,7 @@ div .container ul {
 }
 
 .bodytext {
-  background-color: white !important;
+  background-color: inherit !important;
   color: #323C47 !important;
   border-color: #ebeff2 !important;
   font-family: "Montserrat", sans-serif;
@@ -943,6 +943,7 @@ div .container ul {
 .tablediv table thead{
   border-bottom: 1px solid #ebeff2;
 }
+.tablediv
 .formcontainer {
   background-color: white !important;
   display: flex;
