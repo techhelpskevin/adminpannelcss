@@ -1347,7 +1347,10 @@ font-size: 13px;
   margin-top: 0px;
 }
 .searchpagebuttondiv p {
+  font-weight: 900;
+  border-bottom: 2px solid #000;
   font-size: small;
+  line-height: 1;
 }
 
 .pagination {
