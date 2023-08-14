@@ -933,6 +933,7 @@ div .container ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0px;
 }
 .actionColumn button svg{
   height: 18px;
