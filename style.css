@@ -920,7 +920,12 @@ div .container ul {
   border-left: none !important;
   border-bottom: 1px solid #ebeff2;
 }
-
+.actionColumn{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
 .bodytext {
   background-color: inherit !important;
   color: #323C47 !important;
