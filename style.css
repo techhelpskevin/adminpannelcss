@@ -899,8 +899,8 @@ div .container ul {
 }
 
 .tablehead {
-  background-color: white !important;
-  color: #334D6E !important;
+  background-color: #8f919969  !important;
+  color: #000 !important;
   text-transform: capitalize;
   height: 50px !important;
   opacity: 0.5;
