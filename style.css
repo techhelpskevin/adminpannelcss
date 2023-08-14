@@ -926,6 +926,9 @@ div .container ul {
   justify-content: flex-start;
   align-items: flex-start;
 }
+.actionColumn button{
+  width: 40px;
+}
 .bodytext {
   background-color: inherit !important;
   color: #323C47 !important;
