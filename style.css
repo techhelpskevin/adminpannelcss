@@ -1195,7 +1195,7 @@ padding: 0px!important;
   margin: 0;
 }
 .actionColumn button:nth-child(3){
-background-color: purple;
+background-color: purple!important;
 }
 .default-home-cards {
   padding: 0% !important;
