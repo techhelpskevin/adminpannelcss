@@ -927,7 +927,16 @@ div .container ul {
   align-items: flex-start;
 }
 .actionColumn button{
-  width: 40px!important;
+  width: 32px!important;
+  height: 32px!important;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.actionColumn button svg{
+  height: 18px;
+  width: 18px;
 }
 .bodytext {
   background-color: inherit !important;
