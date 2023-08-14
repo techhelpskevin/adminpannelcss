@@ -937,7 +937,7 @@ div .container ul {
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
   font-weight: 700 !important;
-  //border-bottom: 1px solid #ebeff2;
+  border-bottom: none;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -950,7 +950,7 @@ div .container ul {
   border-collapse: collapse;
 }
 .tablediv table thead{
-//  border-bottom: 1px solid #ebeff2;
+border-bottom:none;
 }
 .tablediv .tablebody tr:nth-child(2n),.tablediv .tablebody tr:nth-child(2n) td{
 background-color: rgba(25, 118, 210, 0.01)!important;
