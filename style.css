@@ -389,6 +389,7 @@ font-weight: 400;
   height:40px;
   font-weight:700;
   background-color:#fff;
+  min-width: 80px;
 }
 .filterbutton .css-b62m3t-container .css-13cymwt-control {
   font-family: Roboto, Helvetica, Arial, sans-serif;
