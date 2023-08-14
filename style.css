@@ -943,7 +943,9 @@ div .container ul {
 .tablediv table thead{
   border-bottom: 1px solid #ebeff2;
 }
-.tablediv
+.tablediv .tablebody tr:nth-child(2n){
+background-color: red;
+}
 .formcontainer {
   background-color: white !important;
   display: flex;
