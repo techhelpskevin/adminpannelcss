@@ -922,7 +922,7 @@ div .container ul {
 }
 .actionColumn{
   display: flex;
-  flex-direction: column;
+  gap: 5px;
   justify-content: flex-start;
   align-items: flex-start;
 }
