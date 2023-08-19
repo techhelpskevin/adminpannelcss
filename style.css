@@ -63,7 +63,6 @@ button {
   transform: translateX(-50%);
   bottom: -50px;
   text-indent: -9999em;
-  position: relative;
 text-transform: uppercase;
 }
 .contain form button:after{
@@ -71,6 +70,8 @@ text-transform: uppercase;
   position: absolute;
     width: 0px;
     height: 0px;
+    left: 0;
+    top: 0;
     border-style: solid;
     border-width: 0 33.5px 57px 33.5px;
     border-color: transparent transparent #FF4532 transparent;
