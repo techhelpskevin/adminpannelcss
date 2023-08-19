@@ -1197,6 +1197,9 @@ background-color: #01654D !important;
   margin-top: 0px;
   margin-bottom: 0px;
 }
+.App>div.detail-screen::after,.App>div.detail-screen::before,.App>div.home-screen::after,.App>div.home-screen::before,.App>div.search-result-screen::after,.App>div.search-result-screen::before{
+  display: none!important;
+}
 .admin-dashboard-home{
   width: auto!important;
 }
