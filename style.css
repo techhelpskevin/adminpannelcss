@@ -29,6 +29,12 @@ body{
 .contain form input{
   background-color: transparent!important;
   border-bottom: 2px solid #fff!important;
+  outline: none!important;
+  color: #fff!important;
+  padding-left: 10px!important;
+}
+.contain form label{
+  color: #fff!important;
 }
 button {
   display: block;
