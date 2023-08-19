@@ -25,6 +25,10 @@ body{
   position: relative;
   z-index: 9999;
 }
+.contain form input{
+  background-color: transparent!important;
+  border-bottom: 2px solid #fff!important;
+}
 button {
   display: block;
   width: 100%;
