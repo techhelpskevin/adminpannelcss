@@ -63,7 +63,16 @@ button {
   transform: translateX(-50%);
   bottom: -50px;
   text-indent: -9999em;
+  position: relative;
 text-transform: uppercase;
+}
+.contain form button:after{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 33.5px 57px 33.5px;
+    border-color: transparent transparent #FF4532 transparent;
+    transform: rotate(89deg);
 }
 .css-1sucic7 {
   z-index: 999999999999;
