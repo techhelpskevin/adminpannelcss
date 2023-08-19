@@ -24,6 +24,7 @@ body{
 .contain form{
   position: relative;
   z-index: 9999;
+  padding-bottom: 75px;
 }
 .contain form input{
   background-color: transparent!important;
@@ -54,6 +55,7 @@ button {
   left: 50%;
   background-color: #01654D;
   transform: translateX(-50%);
+  bottom: -50px;
 }
 .css-1sucic7 {
   z-index: 999999999999;
