@@ -16,6 +16,8 @@ body{
 }
 .contain h2{
   font-family: 'Chivo', sans-serif;
+  position: relative;
+  z-index: 9999;
 }
 
 button {
@@ -1186,6 +1188,7 @@ background-color: #01654D !important;
   width: 50%;
   background-color: #006A53 !important;
 }
+
 .App>div.detail-screen,.App>div.home-screen,.App>div.search-result-screen{
   margin-left: 0px!important;
   margin-top: 0px;
