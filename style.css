@@ -67,6 +67,8 @@ button {
 text-transform: uppercase;
 }
 .contain form button:after{
+  content: '';
+  position: absolute;
     width: 0px;
     height: 0px;
     border-style: solid;
