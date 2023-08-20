@@ -1209,9 +1209,9 @@ display: none;
 .App>div{
   margin-left: 300px;
   min-width: auto!important;
-  position: relative;
+  /* position: relative; */
 }
-.App>div::after{
+/* .App>div::after{
 content: '';
 position: absolute;
 left: 0;
@@ -1232,7 +1232,7 @@ background-color: #01654D !important;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   background-color: #006A53 !important;
-}
+} */
 
 .App>div.detail-screen,.App>div.home-screen,.App>div.search-result-screen{
   margin-left: 0px!important;
