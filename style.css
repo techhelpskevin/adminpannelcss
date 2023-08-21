@@ -1126,6 +1126,7 @@ box-shadow: 6px 0px 18px 0px rgba(0, 0, 0, 0.06);
 .sidebarcontainer .css-1ujsas3 {
   border-bottom: 1px solid #EBEFF2!important;
   padding-left: 30px;
+  color: #464545;
 }
 .sidebarcontainer button.active{
   background-color: rgba(25, 118, 210, 0.04)!important;
