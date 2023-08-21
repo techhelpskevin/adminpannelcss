@@ -586,8 +586,7 @@ color: #fff;
 }
 input[type="text"],
 input[type="email"],
-input[type="password"],
-input[type="tel"]  {
+input[type="password"]  {
   width: 90%;
   padding: 10px;
   border-radius: 5px;
@@ -666,8 +665,7 @@ label {
 
 input[type="text"],
 input[type="email"],
-input[type="password"],
-input[type="tel"]  {
+input[type="password"] {
   width: 100%;
   padding: 0px;
   height: 36px;
@@ -1065,10 +1063,10 @@ background-color: rgba(25, 118, 210, 0.01)!important;
 .inputtag:focus{
   border-bottom-color:#152C70 ;
 }
-input[type="file"].inputtag{
+input[type="file"].inputtag,input[type="tel"].inputtag{
   width: auto!important;
 }
-textarea.inputtag{
+textarea.inputtag,input[type="tel"].inputtag{
 padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
