@@ -1181,7 +1181,7 @@ color: #152C70;
   margin: revert;
   align-items: center;
   border-bottom:1px solid #EBEFF2;
-  padding: 6px 20px;
+  padding: 6px 30px;
   display: flex;
   text-decoration: none;
 }
@@ -1189,9 +1189,9 @@ color: #152C70;
 background-color: #fafafa;
 }
 .sidebarcontainer a svg{
-  height: 32px;
-  width: 32px;
-  margin-right: 10px;
+  height: 16px;
+  width: 16px;
+  margin-right: 6px;
   color: #152C70!important;
 }
 .css-b62m3t-container ~ .container{
