@@ -1801,7 +1801,11 @@ z-index: 9999999!important;
     margin-left: 220px;
   }
   .contain{
-    width: 80%;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 10px!important;
+    margin-right: 10px!important;
+    padding: 0px 20px;
   }
   .sidebarcontainer{
     width: 200px;
