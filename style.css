@@ -1819,6 +1819,9 @@ z-index: 9999999!important;
   font-family: 'Chivo', sans-serif;
 }
 @media (min-width: 321px) and (max-width: 460px) {
+  .modal-body .btn{
+    width: auto;
+  }
   .result-searchdiv {
 
     margin-left: 0px;
