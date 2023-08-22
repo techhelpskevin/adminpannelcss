@@ -1708,6 +1708,9 @@ margin: 15px auto!important;
   width: 100%;
   justify-content: start;
 }
+.search-modal-content .css-1qw96cp{
+  padding: 0px!important;
+}
 .detail-screen .home-page-banner {
   height: fit-content !important;
 }
