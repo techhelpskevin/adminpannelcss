@@ -1677,6 +1677,11 @@ width: 100%;
   height: 160px;
 }
 
+.home-modal-content .css-d9xncm{
+height: auto!important;
+}
+
+
 .detail-screen .home-page-banner {
   height: fit-content !important;
 }
