@@ -1694,6 +1694,10 @@ margin: 15px auto!important;
   display: flex;
   align-items: center;
 }
+.detail-modal-content .modal-content{
+  max-width: 96%;
+  margin: 0 auto;
+}
 .detail-screen .home-page-banner {
   height: fit-content !important;
 }
