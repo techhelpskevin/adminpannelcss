@@ -1433,6 +1433,9 @@ font-size: 13px;
   padding-right:16px;
   margin-bottom:20px;
 }
+.searchdiv .MuiButtonBase-root>div{
+  display: block!important;
+}
 .MuiButtonBase-root>div:nth-child(3) button{
   margin-top:0px!important;
   width:auto;
