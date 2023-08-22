@@ -1706,10 +1706,13 @@ margin: 15px auto!important;
 .search-modal-content .modal-content .searchcardiv{
   display: flex;
   width: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
   justify-content: start;
 }
+.search-modal-content .modal-body>div{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .search-modal-content .css-1qw96cp{
   padding: 0px!important;
 }
