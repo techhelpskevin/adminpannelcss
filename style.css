@@ -1864,8 +1864,8 @@ z-index: 9999999!important;
   }
   .card-body>div:nth-child(1) {
     gap: 10px;
-    flex-direction: column;
-    width: 110px;
+    flex-wrap: wrap;
+    margin-right: 8px;
   }
   .App>div {
     margin-left: 220px;
