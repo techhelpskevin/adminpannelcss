@@ -1656,8 +1656,8 @@ footer.footerdiv hr {
   padding: 16px 48px;
   width: auto;
   font-size: 24px;
-  margin-top: 10px;
-  display: block;
+  margin-top: 10px!important;
+  display: block!important;
 }
 .detail-button[variant="outlined"]{
   position: absolute;
