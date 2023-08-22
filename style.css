@@ -1218,6 +1218,9 @@ display: none;
   margin-left: 300px;
   min-width: auto!important;
 }
+.menu-is-not-active{
+margin-left: 32px!important;
+}
 .contain{
   position: relative;
 }
