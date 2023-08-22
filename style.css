@@ -1405,6 +1405,9 @@ font-size: 13px;
    height: 260px;
   width: 320px;
 }
+.360-image-icon{
+  position:absolute;
+}
 .MuiCardContent-root .MuiTypography-h6{
   text-align:center;
   font-size:18px;
