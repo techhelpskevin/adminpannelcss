@@ -1700,6 +1700,9 @@ margin: 20px auto!important;
   max-width: 96%;
   margin: 0 auto;
 }
+.detail-modal-content .modal-body{
+  padding: 30px 20px;
+}
 .search-modal-content .modal-content{
   max-width: 96%;
 }
