@@ -1872,6 +1872,7 @@ z-index: 9999999!important;
   }
   .menu-is-not-active {
     margin-left: 8px!important;
+    margin-right: 8px!important;
 }
   .contain{
     width: 100%;
