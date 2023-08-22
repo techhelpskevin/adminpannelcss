@@ -1683,7 +1683,9 @@ height: auto!important;
 .home-modal-content .MuiButtonBase-root>div:nth-child(3){
   display: block!important;
 }
-
+.home-modal-content .MuiButtonBase-root .MuiCardMedia-img{
+  width: auto!important;
+}
 .detail-screen .home-page-banner {
   height: fit-content !important;
 }
