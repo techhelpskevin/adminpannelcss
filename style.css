@@ -1680,7 +1680,9 @@ width: 100%;
 .home-modal-content .css-d9xncm{
 height: auto!important;
 }
-
+.home-modal-content .MuiButtonBase-root>div:nth-child(3){
+  display: block!important;
+}
 
 .detail-screen .home-page-banner {
   height: fit-content !important;
