@@ -1405,8 +1405,8 @@ font-size: 13px;
    height: 260px;
   width: 320px;
 }
-.360-image-icon{
-  position:absolute;
+.MuiButtonBase-root .MuiCardMedia-img:nth-child(2){
+display: none;
 }
 .MuiCardContent-root .MuiTypography-h6{
   text-align:center;
