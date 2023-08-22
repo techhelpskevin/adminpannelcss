@@ -1700,6 +1700,9 @@ margin: 15px auto!important;
   max-width: 96%;
   margin: 0 auto;
 }
+.search-modal-content .modal-content{
+  max-width: 96%;
+}
 .detail-screen .home-page-banner {
   height: fit-content !important;
 }
