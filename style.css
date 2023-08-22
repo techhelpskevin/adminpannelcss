@@ -1864,6 +1864,9 @@ z-index: 9999999!important;
   .App>div {
     margin-left: 220px;
   }
+  .menu-is-not-active {
+    margin-left: 8px!important;
+}
   .contain{
     width: 100%;
     box-sizing: border-box;
