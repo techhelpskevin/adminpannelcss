@@ -1703,6 +1703,11 @@ margin: 15px auto!important;
 .search-modal-content .modal-content{
   max-width: 96%;
 }
+.search-modal-content .modal-content .searchcardiv{
+  display: flex;
+  width: 100%;
+  justify-content: start;
+}
 .detail-screen .home-page-banner {
   height: fit-content !important;
 }
