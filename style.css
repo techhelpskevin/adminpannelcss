@@ -1729,11 +1729,18 @@ margin: 20px auto!important;
   font-size: 25px;
   line-height: 35px;
   color: #2f2a4a!important;
-  padding: 10px 0px;
   margin: 0px;
   font-family: "Noto Sans", sans-serif;
 }
-
+.detailed-title-component{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
 .detail-info-div {
   flex: 1;
   font-size: large;
