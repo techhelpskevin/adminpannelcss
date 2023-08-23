@@ -2201,7 +2201,7 @@ z-index: 9999999!important;
   }
   .default-home-cards .searchdiv {
     gap: 50px;
-    width: 60% !important;
+    width: 80% !important;
     justify-content: center;
     display: flex;
     flex-direction: column;
