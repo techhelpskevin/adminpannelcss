@@ -1441,6 +1441,7 @@ font-size: 13px;
   padding-right: 8px;
   padding-bottom: 8px;
   align-items: center;
+  height: auto;
 }
 
 .MuiButtonBase-root>div:nth-child(3) button{
