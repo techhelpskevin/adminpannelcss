@@ -1408,7 +1408,7 @@ font-size: 13px;
 .MuiButtonBase-root .MuiCardMedia-img:nth-child(2){
   position: absolute;
   height: 40px;
-  width: 40px;
+  width: 40px!important;
   right: 10px;
   top: 10px;
 }
