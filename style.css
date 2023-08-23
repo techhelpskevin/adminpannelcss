@@ -1403,7 +1403,7 @@ font-size: 13px;
 }
 .MuiButtonBase-root .MuiCardMedia-img{
    height: 260px;
-  width: 100%;
+  width: 320px;
 }
 .MuiButtonBase-root .MuiCardMedia-img:nth-child(2){
   position: absolute;
