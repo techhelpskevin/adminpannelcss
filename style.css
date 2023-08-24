@@ -442,6 +442,16 @@ article.home-page-banner::after {
   border-radius: 12px;
 }
 
+.select-popup-temp::-webkit-scrollbar {
+  width: 2px;
+  background-color: #fff;
+}
+
+.select-popup-temp::-webkit-scrollbar-thumb {
+  background-color: #444;
+  border-radius: 12px;
+}
+
 .filter-button-div-overflowed {
   display: flex;
   gap: 20px;
