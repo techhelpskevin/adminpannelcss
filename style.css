@@ -508,7 +508,10 @@ article.home-page-banner::after {
   display: flex;
   gap: 10px;
 }
-
+.slider-select-popup-container .slider-select-labels{
+  display: flex;
+  justify-content: space-between;
+}
 
 .filterbutton
   .css-b62m3t-container
