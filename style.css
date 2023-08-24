@@ -495,7 +495,6 @@ article.home-page-banner::after {
 .slider-select-popup-container .slider-select-inputs{
   display: flex;
   gap: 10px;
-  
 }
 
 
@@ -523,15 +522,6 @@ article.home-page-banner::after {
   .css-1hb7zxy-IndicatorsContainer
   .css-1xc3v61-indicatorContainer {
   color: black !important ;
-}
-.slider-select-popup-container{
-  position: absolute;
-  background-color: #fff;
-  padding: 10px;
-}
-.slider-select-popup-container .slider-select-inputs{
-  display: flex;
-  gap: 10px;
 }
 .filterbutton .css-b62m3t-container .css-t3ipsp-control .css-1nmdiq5-menu {
   background-color: #ffffff !important;
