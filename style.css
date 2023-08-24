@@ -516,9 +516,18 @@ article.home-page-banner::after {
   display: flex;
 }
 
+@media all and (min-width: 300px) and (max-width: 1100px) {
+  .filter-button-div-overflowed {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+}
+
 .filter-button-div-overflowed {
   display: flex;
   gap: 20px;
+  justify-content: start;
   padding: 0 20px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -549,7 +558,7 @@ article.home-page-banner::after {
   height: 40px;
   border: 1px solid #d4d4d4;
 }
-.slider-select-popup-container{
+.slider-select-popup-container {
   max-width: 340px;
   margin-top: 10px;
   background-color: #fff;
