@@ -426,6 +426,7 @@ article.home-page-banner::after {
   overflow-x: auto;
   border-top: 1px solid rgb(204, 204, 204);
   border-bottom: 1px solid rgb(204, 204, 204);
+  overflow-y: visible;
 }
 .filter-button-div-overflowed {
   display: flex;
