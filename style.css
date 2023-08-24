@@ -512,7 +512,6 @@ article.home-page-banner::after {
 }
 
 .select-container-parent {
-  position: relative;
   display: flex;
 }
 
