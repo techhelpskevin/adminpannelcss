@@ -500,8 +500,9 @@ article.home-page-banner::after {
 }
 .slider-select-popup-container{
   position: absolute;
+  top: 10px;
   background-color: #fff;
-  border: 8px;
+  border-radius: 8px;
   padding: 10px;
 }
 .slider-select-popup-container .slider-select-inputs{
