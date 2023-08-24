@@ -458,8 +458,9 @@ article.home-page-banner::after {
   padding: 9.5px 10px;
   border: 1px solid #ccc;
   background-color: #fff;
+  background-color: #fff;
   position: absolute;
-  z-index: "1000000000";
+  z-index: 1000000000;
   top: 50px;
   left: 0px;
   overflow-y: auto;
