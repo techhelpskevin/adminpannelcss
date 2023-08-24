@@ -486,6 +486,17 @@ article.home-page-banner::after {
   height: 40px;
   border: 1px solid #d4d4d4;
 }
+.slider-select-popup-container{
+  position: absolute;
+  background-color: #fff;
+  border: 8px;
+  padding: 10px;
+}
+.slider-select-popup-container .slider-select-inputs{
+  display: flex;
+  gap: 10px;
+}
+
 .filterbutton
   .css-b62m3t-container
   .css-13cymwt-control
