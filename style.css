@@ -528,6 +528,7 @@ article.home-page-banner::after {
 .slider-select-popup-container .slider-select-labels{
   display: flex;
   justify-content: space-between;
+  font-family: "Chivo", sans-serif;
 }
 
 .filterbutton
