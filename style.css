@@ -569,7 +569,9 @@ article.home-page-banner::after {
   justify-content: space-between;
   font-family: "Chivo", sans-serif;
 }
-
+.slider-select-popup-container .slider-select-labels label{
+  width: auto;
+}
 .filterbutton
   .css-b62m3t-container
   .css-13cymwt-control
