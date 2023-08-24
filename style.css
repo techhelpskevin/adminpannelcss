@@ -548,7 +548,8 @@ article.home-page-banner::after {
   height: 40px;
   border: 1px solid #d4d4d4;
 }
-.slider-select-popup-container {
+.slider-select-popup-container{
+  max-width: 340px;
   margin-top: 10px;
   background-color: #fff;
   border-radius: 8px;
