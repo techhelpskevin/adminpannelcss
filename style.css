@@ -433,7 +433,7 @@ article.home-page-banner::after {
 
 .filter-button-div::-webkit-scrollbar {
   width: 100%;
-  height:2px;
+  height: 2px;
   background-color: #fff;
 }
 
@@ -450,6 +450,40 @@ article.home-page-banner::after {
 .select-popup-temp::-webkit-scrollbar-thumb {
   background-color: #444;
   border-radius: 12px;
+}
+
+.select-popup-temp {
+  width: 150px;
+  border-radius: 3px;
+  padding: 9.5px 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  position: absolute;
+  z-index: "1000000000";
+  top: 50px;
+  left: 0px;
+  overflow-y: auto;
+  height: 170px;
+}
+.selected-popup-temp-item {
+  background-color: #006d77 !important;
+  color: #fff !important;
+}
+.select-popup-temp-item {
+  width: 100%;
+  padding: 9px 0;
+  background-color: #fff;
+  display: flex;
+  border-radius: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #000;
 }
 
 .select-labeled-container {
@@ -476,8 +510,7 @@ article.home-page-banner::after {
   height: 240px;
 }
 
-
-.select-container-parent{
+.select-container-parent {
   position: relative;
   display: flex;
 }
@@ -485,13 +518,12 @@ article.home-page-banner::after {
 .filter-button-div-overflowed {
   display: flex;
   gap: 20px;
-  padding:0 20px;
+  padding: 0 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
 
-.css-1nmdiq5-menu{
+.css-1nmdiq5-menu {
   z-index: 10000000000000000 !important;
   position: absolute !important;
 }
@@ -516,21 +548,21 @@ article.home-page-banner::after {
   height: 40px;
   border: 1px solid #d4d4d4;
 }
-.slider-select-popup-container{
+.slider-select-popup-container {
   margin-top: 10px;
   background-color: #fff;
   border-radius: 8px;
   padding: 10px;
   border: 1px solid #d4d4d4;
 }
-.slider-select-popup-container .slider-select-inputs{
+.slider-select-popup-container .slider-select-inputs {
   display: flex;
   gap: 10px;
 }
-.slider-select-popup-container .slider-select-inputs input{
-  padding-left: 10px!important;
+.slider-select-popup-container .slider-select-inputs input {
+  padding-left: 10px !important;
 }
-.slider-select-popup-container .slider-select-labels{
+.slider-select-popup-container .slider-select-labels {
   display: flex;
   justify-content: space-between;
   font-family: "Chivo", sans-serif;
@@ -550,7 +582,7 @@ article.home-page-banner::after {
   color: black !important;
 }
 
-.filterbutton{
+.filterbutton {
   flex-shrink: 0;
 }
 
