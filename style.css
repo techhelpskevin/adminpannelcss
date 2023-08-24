@@ -452,6 +452,18 @@ article.home-page-banner::after {
   border-radius: 12px;
 }
 
+.heighted-clasas-1{
+  height:"40px"
+}
+.heighted-clasas-2{
+  height:"240px"
+}
+
+.select-container-parent{
+  position: relative;
+  display: flex;
+}
+
 .filter-button-div-overflowed {
   display: flex;
   gap: 20px;
