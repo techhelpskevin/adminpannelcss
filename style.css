@@ -450,8 +450,8 @@ article.home-page-banner::after {
 }
 
 .css-1nmdiq5-menu{
-  z-index: 10000000000000000;
-  position: absolute;
+  z-index: 10000000000000000 !important;
+  position: absolute !important;
 }
 
 .cardBodyContainer .filter-button-div .MuiButtonBase-root {
