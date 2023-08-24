@@ -495,7 +495,9 @@ article.home-page-banner::after {
 .slider-select-popup-container .slider-select-inputs{
   display: flex;
   gap: 10px;
+  
 }
+
 
 .filterbutton
   .css-b62m3t-container
