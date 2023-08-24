@@ -461,6 +461,7 @@ article.home-page-banner::after {
   background-color: #fff;
   position: absolute;
   z-index: 1000000000;
+  transform: translateY(50px);
   /* top: 50px; */
   /* left: 0px; */
   overflow-y: auto;
