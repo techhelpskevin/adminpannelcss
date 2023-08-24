@@ -526,6 +526,9 @@ article.home-page-banner::after {
   display: flex;
   gap: 10px;
 }
+.slider-select-popup-container .slider-select-inputs input{
+  padding-left: 10px!important;
+}
 .slider-select-popup-container .slider-select-labels{
   display: flex;
   justify-content: space-between;
