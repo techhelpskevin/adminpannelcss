@@ -468,6 +468,10 @@ article.home-page-banner::after {
   color: black !important;
 }
 
+.filterbutton{
+  flex-shrink: 0;
+}
+
 .filterbutton
   .css-b62m3t-container
   .css-13cymwt-control
