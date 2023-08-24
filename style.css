@@ -448,6 +448,7 @@ article.home-page-banner::after {
   font-family: Roboto, Helvetica, Arial, sans-serif;
   background-color: white !important;
   color: black !important;
+  flex-shrink: 0;
   border: none;
   border-radius: 8px !important;
   height: 40px;
