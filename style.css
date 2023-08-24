@@ -730,6 +730,8 @@ article.home-page-banner::after {
 }
 .select-city-button .select-labeled-container{
   background-color: #006d77;
+  color: #fff;
+  min-width: 80px;
 }
 .select-city-button svg {
   color: #fff;
