@@ -430,6 +430,7 @@ article.home-page-banner::after {
 .filter-button-div-overflowed {
   display: flex;
   gap: 20px;
+  height: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
 
@@ -437,6 +438,7 @@ article.home-page-banner::after {
 
 .css-1nmdiq5-menu{
   z-index: 10000000000000000;
+  position: absolute;
 }
 
 .cardBodyContainer .filter-button-div .MuiButtonBase-root {
