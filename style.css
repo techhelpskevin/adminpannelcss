@@ -1236,6 +1236,7 @@ div .container ul {
 }
 .property-price-class {
   display: flex;
+  align-items: end;
 }
 .inputdiv {
   /* flex: 2; */
@@ -1247,6 +1248,7 @@ div .container ul {
 .inputtag {
   width: 100% !important;
   outline: none;
+  margin-left: 5px;
   color: #4677c3;
   font-weight: 500;
   background-color: transparent;
