@@ -1184,17 +1184,18 @@ div .container ul {
   width: 32%;
 }
 
-.property-w-3{
+.property-w-3 {
   width: 100% !important;
+}
+.property-w-2 {
+  width: 48% !important;
 
 }
-.property-w-2{
-  width: 32% !important
+.property-w-1 {
+  width: 32% !important;
+
 }
-.property-w-1{
-  width: 48% !important
-}
-.column-property{
+.column-property {
   flex-direction: column;
 }
 .subform .css-hlgwow {
@@ -1217,7 +1218,6 @@ div .container ul {
   font-size: 12px;
 }
 
-
 .lablediv {
   display: flex;
   align-items: center;
@@ -1225,7 +1225,7 @@ div .container ul {
   flex-shrink: 0;
   margin-right: 5px;
 }
-.property-price-class{
+.property-price-class {
   display: flex;
 }
 .inputdiv {
@@ -1254,7 +1254,7 @@ input[type="tel"].inputtag {
 textarea.inputtag,
 input[type="tel"].inputtag {
   padding: 10px;
-  height:180px;
+  height: 180px;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
