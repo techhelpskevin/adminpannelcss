@@ -1188,17 +1188,16 @@ div .container ul {
 }
 .property-w-2 {
   width: 48% !important;
-
 }
 .property-w-1 {
-  width: 32% !important;
-
+  width: 30% !important;
+  margin-right: 1%;
 }
 
-.property-w-0{
+.property-w-0 {
   width: 24% !important;
 }
-.property-w-0 .lablediv{
+.property-w-0 .lablediv {
   width: 40px;
 }
 .column-property {
