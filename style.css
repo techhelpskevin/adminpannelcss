@@ -1181,7 +1181,7 @@ div .container ul {
   background-color: white;
   margin-bottom: 10px;
   /* width: 48%; */
-  width: 30%;
+  width: 32%;
 }
 .subform .css-hlgwow {
   padding-left: 0px !important;
@@ -1205,6 +1205,7 @@ div .container ul {
 .lablediv {
   display: flex;
   align-items: center;
+  width: 110px;
 }
 .property-price-class{
   display: flex;
