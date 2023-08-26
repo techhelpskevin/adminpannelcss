@@ -1206,7 +1206,9 @@ div .container ul {
   flex: 1;
   align-items: center;
 }
-
+.property-price-class{
+  display: flex;
+}
 .inputdiv {
   flex: 2;
   align-items: center;
