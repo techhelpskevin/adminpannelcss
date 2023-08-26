@@ -1183,6 +1183,9 @@ div .container ul {
   /* width: 48%; */
   width: 32%;
 }
+.column-property{
+  flex-direction: column;
+}
 .subform .css-hlgwow {
   padding-left: 0px !important;
   text-align: left;
