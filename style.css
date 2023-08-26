@@ -1177,7 +1177,7 @@ div .container ul {
 
 .subform {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-color: white;
   margin-bottom: 10px;
   /* width: 48%; */
@@ -1204,10 +1204,12 @@ div .container ul {
 
 .labediv {
   flex: 1;
+  align-items: center;
 }
 
 .inputdiv {
   flex: 2;
+  align-items: center;
   padding: 1px;
 }
 .inputtag {
