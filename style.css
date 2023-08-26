@@ -1194,6 +1194,9 @@ div .container ul {
   width: 30% !important;
   margin-right: 3%;
 }
+.property-margin-r{
+  margin-right: 70% !important;
+}
 
 .property-w-0 {
   width: 24% !important;
