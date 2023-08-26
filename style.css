@@ -1175,7 +1175,8 @@ div .container ul {
   flex-direction: column;
   background-color: white;
   margin-bottom: 10px;
-  width: 48%;
+  /* width: 48%; */
+  width: 30%;
 }
 .subform .css-hlgwow {
   padding-left: 0px !important;
