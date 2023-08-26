@@ -1230,7 +1230,7 @@ div .container ul {
 .lablediv {
   display: flex;
   align-items: center;
-  width: 90px;
+  padding: 0 10px;
   flex-shrink: 0;
   margin-right: 5px;
 }
