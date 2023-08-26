@@ -2381,7 +2381,7 @@ footer.footerdiv hr {
 
 .modal-content {
   width: 100%;
-  max-width: 500px;
+  max-width: 80%;
   max-height: 80%;
   overflow-y: auto;
   background: white;
