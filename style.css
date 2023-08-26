@@ -1183,6 +1183,17 @@ div .container ul {
   /* width: 48%; */
   width: 32%;
 }
+
+.property-w-3{
+  width: 100% !important;
+
+}
+.property-w-2{
+  width: 32% !important
+}
+.property-w-1{
+  width: 48% !important
+}
 .column-property{
   flex-direction: column;
 }
