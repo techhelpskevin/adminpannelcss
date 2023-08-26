@@ -1217,7 +1217,7 @@ div .container ul {
 .inputdiv {
   /* flex: 2; */
   display: flex;
-  width: 100px;
+  width: 100%;
   align-items: center;
   padding: 1px;
 }
