@@ -1203,10 +1203,13 @@ div .container ul {
   font-size: 12px;
 }
 
+
 .lablediv {
   display: flex;
   align-items: center;
-  width: 30%;
+  width: 110px;
+  flex-shrink: 0;
+  margin-right: 5px;
 }
 .property-price-class{
   display: flex;
@@ -1214,7 +1217,7 @@ div .container ul {
 .inputdiv {
   /* flex: 2; */
   display: flex;
-  width: 70%;
+  width: 100px;
   align-items: center;
   padding: 1px;
 }
