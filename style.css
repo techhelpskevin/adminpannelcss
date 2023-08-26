@@ -725,10 +725,10 @@ article.home-page-banner::after {
 .select-city-button {
   width: 150px;
   display: flex;
-    justify-content: flex-end;
+  justify-content: flex-end;
   font-family: Arial, Helvetica, sans-serif;
 }
-.select-city-button .select-labeled-container{
+.select-city-button .select-labeled-container {
   background-color: #006d77;
   color: #fff;
   min-width: 80px;
@@ -1170,6 +1170,11 @@ div .container ul {
   justify-content: space-between;
   align-items: end;
 }
+
+.full-width-textarea {
+  width: 100% !important;
+}
+
 .subform {
   display: flex;
   flex-direction: column;
