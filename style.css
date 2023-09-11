@@ -2493,3 +2493,9 @@ footer.footerdiv hr {
 .admin-route-button {
   margin-bottom: 15px;
 }
+
+.super-admin-label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
