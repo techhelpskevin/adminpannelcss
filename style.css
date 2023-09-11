@@ -2500,3 +2500,7 @@ footer.footerdiv hr {
   justify-content: space-between;
   margin-bottom: 10px;
 }
+
+.lableded-map-dashboard{
+  width: 300px;
+}
