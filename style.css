@@ -2489,3 +2489,7 @@ footer.footerdiv hr {
 .superAdminDashboard-child-2 {
   width: 48%;
 }
+
+.admin-route-button {
+  margin-bottom: 15px;
+}
