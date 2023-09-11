@@ -1194,7 +1194,7 @@ div .container ul {
   width: 30% !important;
   margin-right: 3%;
 }
-.property-margin-r{
+.property-margin-r {
   margin-right: 52% !important;
 }
 
@@ -2474,4 +2474,18 @@ footer.footerdiv hr {
   margin-top: 30px;
   width: 100%;
   gap: 50px;
+}
+
+.superAdminDashboard {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.superAdminDashboard-child-1 {
+  width: 48%;
+}
+
+.superAdminDashboard-child-2 {
+  width: 48%;
 }
