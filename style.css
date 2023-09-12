@@ -1412,6 +1412,7 @@ input[type="tel"].inputtag {
 .App > div {
 	/* margin-left: 300px; */
 	min-width: auto !important;
+	background-color: #eeee;
 }
 .menu-is-not-active {
 	margin-left: 32px !important;
@@ -2076,10 +2077,10 @@ footer.footerdiv hr {
 		flex-wrap: wrap;
 		margin-right: 8px;
 	}
-  .App{
-    background-color: #eeee;
-    margin-top: -100px;
-  }
+	.App {
+		background-color: #eeee;
+		margin-top: -100px;
+	}
 
 	.menu-is-not-active {
 		margin-left: 8px !important;
@@ -2482,35 +2483,60 @@ footer.footerdiv hr {
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
+	background-color: #eeee;
+  margin-top: -100px;
+  padding-top: 50px;
 	/* padding: 20px 10%; */
 }
 
 .superAdminDashboard-child-1 {
 	/* width: 48%; */
-  background-color: white;
+	background-color: #eeee;
 }
 
 .superAdminDashboard-child-2 {
-  background-color: white;
+	background-color: #eeee;
 	/* width: 48%; */
 }
 
 .admin-route-button {
-	margin-bottom: 15px;
+	padding-bottom: 15px;
 }
 
 .super-admin-label {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 10px;
 	flex-direction: column;
 	box-shadow: 0 0 4px grey;
-  width: 300px;
-  padding: 10px;
+	width: 300px;
+	padding: 10px 10px 20px 10px;
 }
-
+.super-admin-label > p {
+	font-size: 22px;
+	font-weight: 700;
+}
 .lableded-map-dashboard {
 	display: flex;
-  justify-content: space-between;
-  gap: 10px;
+	justify-content: space-between;
+	gap: 10px;
+	background-color: white;
+}
+/* Base styling */
+.MuiToggleButtonGroup-root.admin-route-button.css-1ya7z0e {
+  background-color: #3498db;
+  /* Blue color */
+  color: #ffffff;
+  /* White text color */
+  padding: 10px 20px;
+  /* Padding */
+  border: none;
+  /* Removing any border */
+  border-radius: 5px;
+  /* Rounded corners */
+  font-size: 16px;
+  /* Font size */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  transition: 0.3s;
+  /* Smooth transition for hover effect */
 }
