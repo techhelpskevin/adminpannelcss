@@ -1410,7 +1410,7 @@ input[type="tel"].inputtag {
 	font-family: Roboto, sans-serif;
 }
 .App > div {
-	margin-left: 300px;
+	/* margin-left: 300px; */
 	min-width: auto !important;
 }
 .menu-is-not-active {
@@ -2505,6 +2505,8 @@ footer.footerdiv hr {
 	margin-bottom: 10px;
 	flex-direction: column;
 	box-shadow: 0 0 4px grey;
+  width: 300px;
+  padding: 10px;
 }
 
 .lableded-map-dashboard {
