@@ -1322,6 +1322,7 @@ input[type="tel"].inputtag {
 }
 .sidebarcontainer .css-1ujsas3 {
 	border-bottom: 1px solid #ebeff2 !important;
+  width: 256px;
 	padding-left: 30px;
 	color: #464545;
 }
@@ -1379,9 +1380,10 @@ input[type="tel"].inputtag {
 	margin: revert;
 	align-items: center;
 	border-bottom: 1px solid #ebeff2;
-	padding: 6px 30px;
+	padding: 20px 30px;
 	display: flex;
 	text-decoration: none;
+  width: 200px;
 }
 .table-responsive {
 	background-color: #fafafa;
@@ -1413,6 +1415,7 @@ input[type="tel"].inputtag {
 	/* margin-left: 300px; */
 	min-width: auto !important;
 	background-color: #eeee;
+  height: 100vh;
 }
 .menu-is-not-active {
 	margin-left: 32px !important;
@@ -1459,7 +1462,7 @@ input[type="tel"].inputtag {
 	display: none !important;
 }
 .admin-dashboard-home {
-	width: auto !important;
+	width: 200px;
 }
 .card-body {
 	padding: 0px !important;
@@ -2094,8 +2097,13 @@ footer.footerdiv hr {
 		padding: 0px 20px;
 	}
 	.sidebarcontainer {
-		width: 200px;
-		top: 60px;
+  position: fixed;
+    background-color: white;
+    height: 100%;
+    width: 256px;
+    left: 0;
+    top: 0;
+    box-shadow: 6px 0px 18px 0px rgba(0, 0, 0, 0.06)
 	}
 	.loader-class {
 		height: 2rem !important;
@@ -2501,6 +2509,8 @@ footer.footerdiv hr {
 
 .admin-route-button {
 	padding-bottom: 15px;
+  width: 300px;
+  background-color: white;
 }
 
 .super-admin-label {
