@@ -2523,12 +2523,8 @@ footer.footerdiv hr {
 }
 /* Base styling */
 .MuiToggleButtonGroup-root.admin-route-button.css-1ya7z0e {
-  background-color: #3498db;
-  /* Blue color */
   color: #ffffff;
   /* White text color */
-  padding: 10px 20px;
-  /* Padding */
   border: none;
   /* Removing any border */
   border-radius: 5px;
@@ -2537,6 +2533,4 @@ footer.footerdiv hr {
   /* Font size */
   cursor: pointer;
   /* Pointer cursor on hover */
-  transition: 0.3s;
-  /* Smooth transition for hover effect */
 }
