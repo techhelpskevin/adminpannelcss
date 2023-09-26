@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 body {
   margin: 0px;
   padding-right: initial !important;
@@ -2571,6 +2571,7 @@ footer.footerdiv hr {
   margin: 0;
   transform: translateY(1.1px);
   margin-left: 10px;
+  font-family: 'Ubuntu', sans-serif;
 }
 .panel-link-child-clicked {
   background-color: #006d77 !important;
