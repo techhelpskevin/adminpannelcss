@@ -2545,8 +2545,6 @@ footer.footerdiv hr {
 
 .main-content {
   width: 100%;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out;
 }
 
 .panel-link-child {
