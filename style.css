@@ -2569,3 +2569,16 @@ footer.footerdiv hr {
   color: #000;
   font-family: sans-serif;
 }
+.panel-link-child-clicked {
+  background-color: #006d77 !important;
+}
+
+.panel-link-child-clicked svg {
+  color: #fff !important;
+  height: 1rem;
+  width: 1rem;
+}
+
+.panel-link-child-clicked h1 {
+  color: #fff !important;
+}
