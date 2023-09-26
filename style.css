@@ -2546,6 +2546,7 @@ footer.footerdiv hr {
 
 .main-content {
   width: 100%;
+  padding: 0px 50px;
 }
 
 .nav-nav h1{
