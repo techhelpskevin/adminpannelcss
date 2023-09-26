@@ -2555,6 +2555,7 @@ footer.footerdiv hr {
   display: flex;
   align-items: center;
   padding: 0 16px;
+  cursor: pointer;
   box-sizing: border-box;
 }
 
