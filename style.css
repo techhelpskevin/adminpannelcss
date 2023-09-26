@@ -2556,7 +2556,13 @@ footer.footerdiv hr {
   padding: 0 10px;
 }
 
-.panel-link-child h1{
+.panel-link-child svg {
+  color: #006d77;
+  height: 1rem;
+  width: 1rem;
+}
+
+.panel-link-child h1 {
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
