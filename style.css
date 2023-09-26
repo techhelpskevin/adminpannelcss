@@ -1382,9 +1382,8 @@ input[type="tel"].inputtag {
   padding: 6px 30px;
   display: flex;
   text-decoration: none;
-} */
-
-.panel-link{
+}
+*/ .panel-link {
   margin: revert;
   align-items: center;
   border-bottom: 1px solid #ebeff2;
@@ -2520,14 +2519,13 @@ footer.footerdiv hr {
   display: flex;
   flex-direction: column;
   margin-left: 0px !important;
-
 }
 
 .nav-nav {
   background-color: #016d77;
   width: 100%;
   height: 60px;
-  
+
   flex-shrink: 0;
 }
 
@@ -2535,7 +2533,6 @@ footer.footerdiv hr {
   width: 100%;
   display: flex;
   height: 100%;
-
 }
 
 .admin-dashboard-home-check {
@@ -2549,4 +2546,19 @@ footer.footerdiv hr {
   width: 100%;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
+}
+
+.panel-link-child {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.panel-link-child h1{
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000;
 }
