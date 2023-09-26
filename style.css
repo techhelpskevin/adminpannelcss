@@ -2564,7 +2564,8 @@ footer.footerdiv hr {
 
 .panel-link-child h1 {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
   color: #000;
   font-family: sans-serif;
@@ -2572,6 +2573,7 @@ footer.footerdiv hr {
   transform: translateY(1.1px);
   margin-left: 10px;
   font-family: 'Ubuntu', sans-serif;
+
 }
 .panel-link-child-clicked {
   background-color: #006d77 !important;
