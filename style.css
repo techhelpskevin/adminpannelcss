@@ -2568,6 +2568,9 @@ footer.footerdiv hr {
   text-transform: uppercase;
   color: #000;
   font-family: sans-serif;
+  margin: 0;
+  transform: translateY(1.1px);
+  margin-left: 10px;
 }
 .panel-link-child-clicked {
   background-color: #006d77 !important;
@@ -2581,4 +2584,7 @@ footer.footerdiv hr {
 
 .panel-link-child-clicked h1 {
   color: #fff !important;
+  margin: 0;
+  transform: translateY(1.1px);
+  margin-left: 10px;
 }
