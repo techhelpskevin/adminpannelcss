@@ -1382,6 +1382,15 @@ input[type="tel"].inputtag {
   padding: 6px 30px;
   display: flex;
   text-decoration: none;
+} */
+
+.panel-link{
+  margin: revert;
+  align-items: center;
+  border-bottom: 1px solid #ebeff2;
+  padding: 6px 30px;
+  display: flex;
+  text-decoration: none;
 }
 .table-responsive {
   background-color: #fafafa;
