@@ -2554,7 +2554,8 @@ footer.footerdiv hr {
   height: 50px;
   display: flex;
   align-items: center;
-  padding: 0 30px;
+  padding: 0 16px;
+  box-sizing: border-box;
 }
 
 .panel-link-child svg {
