@@ -2652,8 +2652,10 @@ footer.footerdiv hr {
 
 .detail-title-form span:nth-child(1) {
   color: #252932 !important;
+  font-weight: 500;
 }
 .detail-title-form span:nth-child(2) {
   color: #236169 !important;
   margin-left: 5px;
+  font-weight: 500;
 }
