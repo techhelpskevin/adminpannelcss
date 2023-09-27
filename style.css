@@ -2741,6 +2741,9 @@ footer.footerdiv hr {
   border-radius: 6px;
   outline: none;
   border: 2px solid #252932;
+  padding: 0px 10px;
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif !important;
 }
 
 .filter-container-listing button {
