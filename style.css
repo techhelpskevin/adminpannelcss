@@ -2493,11 +2493,13 @@ footer.footerdiv hr {
 }
 
 .superAdminDashboard-child-1 {
-  width: 48%;
+  width: 62%;
+  box-sizing: border-box;
 }
 
 .superAdminDashboard-child-2 {
-  width: 48%;
+  width: 38%;
+  box-sizing: border-box;
 }
 
 .admin-route-button {
@@ -2551,7 +2553,7 @@ footer.footerdiv hr {
   padding: 0px 50px;
   overflow-y: auto;
   overflow-x: hidden;
-  background-color: #f4f4f4  !important;
+  background-color: #f4f4f4 !important;
 }
 
 .main-content::-webkit-scrollbar {
