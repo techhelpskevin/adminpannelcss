@@ -1090,12 +1090,6 @@ div .container ul {
   font-size: larger;
   color: white;
 }
-.font {
-  margin-top: 10px;
-  font-weight: 500;
-  color: #1c345d;
-  font-size: larger;
-}
 
 .tablehead {
   background-color: #8f919969 !important;
@@ -2697,4 +2691,13 @@ footer.footerdiv hr {
 
 .super-admin-label:last-child{
   border-bottom: 0px !important;
+}
+
+.font {
+  margin-top: 10px;
+  font-weight: 500;
+  color: #1c345d;
+  font-size: 20px ;
+  font-weight: 600;
+  font-family: "Ubuntu", sans-serif !important;
 }
