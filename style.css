@@ -2730,7 +2730,18 @@ footer.footerdiv hr {
   transform: translateY(2px);
 }
 
-.filter-container-listing{
+.filter-container-listing {
   display: flex;
   background-color: #f4f4f4;
+}
+
+.filter-container-listing input {
+  height: 40px;
+  border-radius: 3px;
+  outline: none;
+  border: 2px solid #ccc;
+}
+
+.filter-container-listing button {
+  flex-shrink: 0;
 }
