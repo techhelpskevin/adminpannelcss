@@ -2504,8 +2504,11 @@ footer.footerdiv hr {
   box-sizing: border-box;
 }
 
-.admin-route-button {
- 
+.admin-route-button button {
+  display: flex !important;
+}
+.admin-route-button span{
+  display: none !important;
 }
 
 .super-admin-label {
