@@ -2492,7 +2492,7 @@ footer.footerdiv hr {
 }
 
 .superAdminDashboard-child-1 {
-  width: 70%;
+  width: 65%;
   box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -2501,7 +2501,7 @@ footer.footerdiv hr {
 }
 
 .superAdminDashboard-child-2 {
-  width: 27%;
+  width: 32%;
   box-sizing: border-box;
 }
 
