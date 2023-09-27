@@ -2701,6 +2701,7 @@ footer.footerdiv hr {
 
 .btn-header-container {
   display: flex;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
