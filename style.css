@@ -2649,6 +2649,6 @@ footer.footerdiv hr {
   font-family: "Ubuntu", sans-serif;
 }
 
-.detail-title-formL:nth-child(1) {
+.detail-title-form:nth-child(1) {
   color: #236169 !important;
 }
