@@ -2637,4 +2637,5 @@ footer.footerdiv hr {
 
 .panel-title-form{
   font-size: 18px;
+  text-transform: initial !important;
 }
