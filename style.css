@@ -2497,7 +2497,6 @@ footer.footerdiv hr {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
-
 }
 
 .superAdminDashboard-child-2 {
@@ -2520,6 +2519,10 @@ footer.footerdiv hr {
 }
 
 .lableded-map-dashboard {
+  background-color: #fff;
+  border-radius: 12px;
+  box-sizing: border-box;
+  padding: 5px 0px;
 }
 
 .whole-container {
@@ -2672,7 +2675,7 @@ footer.footerdiv hr {
   font-weight: 500;
 }
 
-.admin-route-button > div{
+.admin-route-button > div {
   width: 100% !important;
 }
 
