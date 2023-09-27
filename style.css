@@ -2619,6 +2619,9 @@ footer.footerdiv hr {
   bottom: 0px;
   border-top: 1px solid #ccc;
 }
+.last-login-btn svg {
+  color: #ff0000;
+}
 
 .panel-nav-link {
   position: relative;
