@@ -2702,3 +2702,7 @@ footer.footerdiv hr {
   font-weight: 600;
   font-family: "Ubuntu", sans-serif !important;
 }
+
+.btn-header-container{
+  display: flex;
+}
