@@ -2671,6 +2671,10 @@ footer.footerdiv hr {
   font-weight: 500;
 }
 
+.admin-route-button > div{
+  width: 100% !important;
+}
+
 .admin-route-button button {
   display: flex !important;
   font-family: "Ubuntu", sans-serif !important;
