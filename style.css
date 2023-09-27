@@ -1129,17 +1129,7 @@ div .container ul {
   height: 15px;
   width: 15px;
 }
-.bodytext {
-  background-color: inherit !important;
-  color: #323c47 !important;
-  border-color: #ebeff2 !important;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700 !important;
-  border-bottom: none;
-  padding-left: 10px;
-  padding-right: 10px;
-}
+
 .tablediv {
   /* background-color: white; */
   width: auto;
@@ -2766,4 +2756,17 @@ footer.footerdiv hr {
   /* font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif; */
   font-family: "Ubuntu", sans-serif;
+}
+
+.bodytext {
+  background-color: inherit !important;
+  color: #323c47 !important;
+  border-color: #ebeff2 !important;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700 !important;
+  border-bottom: none;
+  padding-left: 10px;
+  padding-right: 10px;
 }
