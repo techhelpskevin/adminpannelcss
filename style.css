@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 body {
   margin: 0px;
   padding-right: initial !important;
@@ -2550,7 +2550,7 @@ footer.footerdiv hr {
   padding: 0px 50px;
 }
 
-.nav-nav h1{
+.nav-nav h1 {
   font-size: 14px;
   font-weight: 500;
   /* letter-spacing: 0.1rem; */
@@ -2558,7 +2558,7 @@ footer.footerdiv hr {
   height: 20px;
   margin: 0 0 0 80px;
   transform: translateY(1.1px);
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .panel-link-child {
@@ -2587,8 +2587,7 @@ footer.footerdiv hr {
   margin: 0;
   transform: translateY(1.1px);
   margin-left: 10px;
-  font-family: 'Ubuntu', sans-serif;
-
+  font-family: "Ubuntu", sans-serif;
 }
 .panel-link-child-clicked {
   background-color: #006d77 !important;
@@ -2607,7 +2606,13 @@ footer.footerdiv hr {
   margin-left: 10px;
 }
 
-.last-login-btn{
+.last-login-btn {
   margin-top: auto;
+  position: absolute;
+   bottom: 0px;
   border-top: 1px solid #ccc;
+}
+
+.panel-nav-link{
+  position: relative;
 }
