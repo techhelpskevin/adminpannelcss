@@ -2549,6 +2549,7 @@ footer.footerdiv hr {
   box-sizing: border-box;
   padding: 0px 50px;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .nav-nav h1 {
