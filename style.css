@@ -2553,12 +2553,12 @@ footer.footerdiv hr {
 }
 
 .main-content::-webkit-scrollbar {
-  width: 7px;
-  background-color: #cccccc00;
+  width: 5px;
+  background-color: #cccccc50;
 }
 
 .main-content::-webkit-scrollbar-thumb {
-  background-color: #000;
+  background-color: #006d77;
   border-radius: 12px;
 }
 
