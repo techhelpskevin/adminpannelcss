@@ -2719,3 +2719,7 @@ footer.footerdiv hr {
   border: none;
   font-family: Roboto, sans-serif;
 }
+
+.card-body div button svg{
+  color:#04b0cc
+}
