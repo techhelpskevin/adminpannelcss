@@ -2635,15 +2635,16 @@ footer.footerdiv hr {
   margin-top: 50px;
 }
 
-.panel-title-form{
+.panel-title-form {
   font-size: 18px;
   text-transform: initial !important;
 }
 
-.detail-title-form{
+.detail-title-form {
   width: 100%;
-  height: 30px;
+  height: 20px;
   display: flex;
-  justify-content: center
-;align-items: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
 }
