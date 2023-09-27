@@ -2678,4 +2678,5 @@ footer.footerdiv hr {
   text-transform: uppercase !important;
   height: 50px !important;
   color: #fff;
+  border-radius: 60px !important;
 }
