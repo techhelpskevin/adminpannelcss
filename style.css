@@ -2622,11 +2622,19 @@ footer.footerdiv hr {
 .last-login-btn {
   margin-top: auto;
   position: absolute;
-   bottom: 0px;
+  bottom: 0px;
   border-top: 1px solid #ccc;
 }
 
-.panel-nav-link{
+.panel-nav-link {
   position: relative;
   height: 100%;
+}
+
+.main-title-form {
+  margin-top: 50px;
+}
+
+.panel-title-form{
+  font-size: 18px;
 }
