@@ -2495,6 +2495,9 @@ footer.footerdiv hr {
 .superAdminDashboard-child-1 {
   width: 62%;
   box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
 }
 
 .superAdminDashboard-child-2 {
