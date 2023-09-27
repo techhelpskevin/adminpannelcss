@@ -2552,6 +2552,16 @@ footer.footerdiv hr {
   overflow-x: hidden;
 }
 
+.main-content::-webkit-scrollbar {
+  width: 3px;
+  background-color: #cccccc00;
+}
+
+.main-content::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border-radius: 12px;
+}
+
 .nav-nav h1 {
   font-size: 14px;
   font-weight: 500;
