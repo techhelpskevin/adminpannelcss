@@ -2688,8 +2688,13 @@ footer.footerdiv hr {
 .super-admin-label {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
   border-bottom: 1px solid #ccc;
   font-size: 15px !important;
+  box-sizing: border-box;
+  padding: 0px 10px;
   font-family: "Ubuntu", sans-serif !important;
+}
+
+.super-admin-label:last-child{
+  border-bottom: 0px !important;
 }
