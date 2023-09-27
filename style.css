@@ -1377,7 +1377,8 @@ input[type="tel"].inputtag {
 .table-responsive {
   background-color: #fafafa;
   border-radius: 13px;
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: auto;
   margin-top: 20px;
 }
 .sidebarcontainer a svg {
