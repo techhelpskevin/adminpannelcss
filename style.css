@@ -2725,7 +2725,7 @@ footer.footerdiv hr {
   border: none;
 }
 
-.card-body div button svg {
+.btn-header-container button svg {
   color: #04b0cc;
   transform: translateY(2px);
 }
