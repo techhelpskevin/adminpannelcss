@@ -2502,6 +2502,7 @@ footer.footerdiv hr {
 
 .superAdminDashboard-child-2 {
   width: 32%;
+
   box-sizing: border-box;
 }
 
@@ -2519,7 +2520,6 @@ footer.footerdiv hr {
 }
 
 .lableded-map-dashboard {
-  width: 300px;
 }
 
 .whole-container {
