@@ -2733,7 +2733,7 @@ footer.footerdiv hr {
 .filter-container-listing {
   display: flex;
   background-color: #f4f4f4;
-  margin-bottom: 10px !important;
+  margin-bottom: 10px;
 }
 
 .filter-container-listing input {
