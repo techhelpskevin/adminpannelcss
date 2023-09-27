@@ -2507,7 +2507,7 @@ footer.footerdiv hr {
 .admin-route-button button {
   display: flex !important;
 }
-.admin-route-button span{
+.admin-route-button span {
   display: none !important;
 }
 
@@ -2669,4 +2669,11 @@ footer.footerdiv hr {
   color: #236169 !important;
   margin-left: 5px;
   font-weight: 500;
+}
+
+.admin-route-button button {
+  display: flex !important;
+  font-family: "Ubuntu", sans-serif !important;
+  background-color: #006d77 !important;
+  text-transform: uppercase !important;
 }
