@@ -2727,5 +2727,5 @@ footer.footerdiv hr {
 
 .card-body div button svg {
   color: #04b0cc;
-  transform: translateX(1px) translateX(4px);
+  transform: translateX(4px) translateY(2px);
 }
