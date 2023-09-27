@@ -2706,3 +2706,9 @@ footer.footerdiv hr {
 .btn-header-container{
   display: flex;
 }
+
+.btn-header-container button{
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  border-radius: 40px !important;
+}
