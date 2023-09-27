@@ -2634,11 +2634,13 @@ footer.footerdiv hr {
 
 .main-title-form {
   margin-top: 30px;
+  background-color: transparent !important;
 }
 
 .panel-title-form {
   font-size: 18px;
   text-transform: initial !important;
+  background-color: transparent !important;
 }
 
 .detail-title-form {
@@ -2648,6 +2650,7 @@ footer.footerdiv hr {
   font-size: 20px;
   justify-content: center;
   align-items: center;
+  background-color: transparent !important;
   font-family: "Ubuntu", sans-serif;
 }
 
