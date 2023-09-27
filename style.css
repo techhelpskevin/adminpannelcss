@@ -2551,6 +2551,7 @@ footer.footerdiv hr {
   padding: 0px 50px;
   overflow-y: auto;
   overflow-x: hidden;
+  background-color: #f4f4f4  !important;
 }
 
 .main-content::-webkit-scrollbar {
