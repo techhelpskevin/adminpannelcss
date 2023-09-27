@@ -2679,4 +2679,5 @@ footer.footerdiv hr {
   height: 50px !important;
   color: #fff;
   border-radius: 60px !important;
+  width: 100% !important;
 }
