@@ -1291,10 +1291,11 @@ input[type="tel"].inputtag {
 }
 .formheadingcontainer {
   background-color: white;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif; */
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
-  font-size: larger;
+  font-size: 30px;
   color: #172b4d;
   justify-content: center;
   align-items: center;
