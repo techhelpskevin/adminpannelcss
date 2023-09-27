@@ -1404,14 +1404,7 @@ input[type="tel"].inputtag {
   margin: 0px;
   text-transform: uppercase;
 }
-.card-body div button {
-  background-color: #4168e6 ;
-  color: white !important;
-  border-radius: 4px;
-  width: auto;
-  border: none;
-  font-family: Roboto, sans-serif;
-}
+
 .App > div {
   margin-left: 300px;
   min-width: auto !important;
@@ -2705,6 +2698,7 @@ footer.footerdiv hr {
 
 .btn-header-container {
   display: flex;
+  margin-bottom: 20px;
 }
 
 .btn-header-container button {
@@ -2715,4 +2709,13 @@ footer.footerdiv hr {
   color: #fff !important;
   font-family: "Ubuntu", sans-serif !important;
   margin-right: 10px !important;
+}
+
+.card-body div button {
+  background-color: #4168e6;
+  color: white !important;
+  border-radius: 4px;
+  width: auto;
+  border: none;
+  font-family: Roboto, sans-serif;
 }
