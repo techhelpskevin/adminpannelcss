@@ -2720,6 +2720,7 @@ footer.footerdiv hr {
   font-family: Roboto, sans-serif;
 }
 
-.card-body div button svg{
-  color:#04b0cc
+.card-body div button svg {
+  color: #04b0cc;
+  transform: translateX(1px) translateX(2px);
 }
