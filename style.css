@@ -710,8 +710,8 @@ article.home-page-banner::after {
   gap: 16px;
 }
 .card {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  /* margin-top: 80px;
+  margin-bottom: 80px; */
 }
 
 .card .css-b62m3t-container {
