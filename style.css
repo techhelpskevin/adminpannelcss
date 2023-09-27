@@ -2514,7 +2514,7 @@ footer.footerdiv hr {
 
 .lableded-map-dashboard {
   background-color: #fff;
-  border-radius: 12px;
+  border-radius: 20px;
   box-sizing: border-box;
   padding: 0px 0px;
 }
@@ -2681,7 +2681,7 @@ footer.footerdiv hr {
   height: 50px !important;
   color: #fff;
   border-radius: 60px !important;
-  font-size: 15px !important;
+  font-size: 13px !important;
   width: 100% !important;
 }
 
@@ -2689,7 +2689,7 @@ footer.footerdiv hr {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #ccc;
-  font-size: 15px !important;
+  font-size: 12px !important;
   box-sizing: border-box;
   padding: 0px 18px;
   font-family: "Ubuntu", sans-serif !important;
