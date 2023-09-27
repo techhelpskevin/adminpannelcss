@@ -2512,12 +2512,6 @@ footer.footerdiv hr {
   display: none !important;
 }
 
-.super-admin-label {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
-
 .lableded-map-dashboard {
   background-color: #fff;
   border-radius: 12px;
@@ -2689,4 +2683,13 @@ footer.footerdiv hr {
   border-radius: 60px !important;
   font-size: 15px !important;
   width: 100% !important;
+}
+
+.super-admin-label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  font-size: 15px !important;
+  font-family: "Ubuntu", sans-serif !important;
 }
