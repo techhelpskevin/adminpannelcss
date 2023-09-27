@@ -2708,6 +2708,7 @@ footer.footerdiv hr {
   padding-left: 20px !important;
   padding-right: 20px !important;
   background-color: #006d77 !important;
+  font-weight: 500 !important;
   border-radius: 40px !important;
   color: #fff !important;
   font-family: "Ubuntu", sans-serif !important;
@@ -2719,8 +2720,8 @@ footer.footerdiv hr {
   color: white !important;
   border-radius: 4px;
   width: auto;
+  font-family: "Ubuntu", sans-serif !important;
   border: none;
-  font-family: Roboto, sans-serif;
 }
 
 .card-body div button svg {
