@@ -1405,7 +1405,7 @@ input[type="tel"].inputtag {
   text-transform: uppercase;
 }
 .card-body div button {
-  background-color: #4168e6 !important;
+  background-color: #4168e6 ;
   color: white !important;
   border-radius: 4px;
   width: auto;
