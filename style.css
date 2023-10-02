@@ -852,13 +852,14 @@ User management page ***************
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 4px 12px;
+    padding: 10px 12px;
     border-top-right-radius: 4px;
 }
 
 .detailcardheading {
     font-weight: 600 !important;
     font-size: 20px !important;
+    margin: 0 !important;
 }
 
 .card_details .contentdiv {
@@ -912,8 +913,8 @@ User management page ***************
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    width: 30px !important;
-    height: 30px !important;
+    width: 35px !important;
+    height: 35px !important;
     border-radius: 50% !important;
     background: transparent !important;
     border: 1px solid black !important;
@@ -922,11 +923,110 @@ User management page ***************
     min-width: fit-content !important;
 }
 
-.share_icon, .fav_icon {
+.share_icon,
+.fav_icon {
     color: black !important;
 }
 
 /* property details card */
+
+.detailcomponent {}
+
+.detailed-title-component {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 36px;
+    padding-block: 10px;
+}
+
+.card_title {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.detail-image-div {
+    position: relative !important;
+    height: 600px;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+
+}
+
+.main-images {
+    height: 600px;
+    width: 75%;
+}
+
+.side-images {
+    height: 600px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    height: auto;
+    object-fit: contain;
+}
+
+.other-images {
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+}
+
+.other_images_item {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.imgs_info {
+    position: absolute;
+    background-color: white;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    border: 1px solid #006D77;
+}
+
+.lowercontainer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.detail-info-div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.detail_title {
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.detail-icon-div {
+    flex: 1;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.contacts-wrapper {
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+}
+
+.contacts-wrapper>button {
+    flex: 1 !important;
+}
 
 
 /* custom inputs */
@@ -951,6 +1051,26 @@ input[type="radio"]:checked::after {
     content: '\2713';
     font-size: 22px;
     color: rgb(209, 0, 0);
+}
+
+/* pagination */
+
+.MuiTablePagination-actions {
+    border-radius: 6px;
+    color: white !important;
+    display: flex !important;
+    gap: 10px !important;
+}
+
+.MuiIconButton-root {
+    background-color: #004e55 !important;
+    border-radius: 6px !important;
+    color: white !important;
+}
+
+.Mui-disabled {
+    opacity: 50% !important;
+    /* color: white !important; */
 }
 
 
@@ -1074,6 +1194,65 @@ Mobile
 
     input[type="radio"]:checked::after {
         font-size: 16px;
+    }
+
+    /* search card  */
+
+    .searchcardiv {
+        flex-direction: column !important;
+    }
+
+    .searchpagebuttondiv {
+        align-items: flex-start;
+    }
+
+    /* details card */
+
+    .detailed-title-component {
+        justify-content: flex-start !important;
+        flex-direction: column !important;
+        gap: 0px !important;
+    }
+
+    .card_title {
+        font-size: 22px;
+    }
+
+    .detail-image-div {
+        height: fit-content;
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-images {
+        height: 100%;
+        width: 100%;
+    }
+
+    .side-images {
+        height: 100px !important;
+        width: 100% !important;
+        flex-direction: row;
+        overflow-x: auto;
+    }
+
+    .other-images {
+        width: 120px;
+        height: 90px;
+    }
+
+    .other_images_item {
+        width: 120px;
+        height: 90px;
+        object-fit: cover;
+    }
+
+    .lowercontainer {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
     }
 
 }
