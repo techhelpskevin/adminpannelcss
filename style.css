@@ -960,6 +960,11 @@ User management page ***************
     width: 75%;
 }
 
+.img360, .img360_iframe {
+    width: 100% !important;
+    height: 600px !important;
+}
+
 .side-images {
     height: 600px;
     width: 25%;
@@ -1253,6 +1258,11 @@ Mobile
         flex-direction: column;
         justify-content: flex-start;
         gap: 20px;
+    }
+
+    .img360, .img360_iframe {
+        width: 100% !important;
+        height: 300px !important;
     }
 
 }
