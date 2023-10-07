@@ -2018,4 +2018,31 @@ Mobile
         position: static !important;
     }
 
+    .card_details .contentdiv {
+        flex-direction: column;
+    }
+
+    .contentdiv_left {
+        gap: 20px;
+    }
+
+    .searchpagebuttondiv {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .searchpagebuttondiv .price_btn {
+        margin-bottom: 0;
+    }
+
+    .pagination_container .search_pagination {
+        margin-inline: auto;
+        margin-block: 20px;
+    }
+
+    .select-city-button {
+        position: relative !important;
+    }
+
 }
