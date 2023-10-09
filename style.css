@@ -792,13 +792,6 @@ User management page ***************
     margin: 0 !important;
 }
 
-.hc_share_btn {
-    border-color: transparent !important;
-    position: absolute !important;
-    right: 10px !important;
-    top: 10px !important;
-}
-
 .home_card_content {
     display: flex;
     flex-direction: column;
@@ -958,11 +951,14 @@ User management page ***************
 }
 
 .hc_share_btn {
+    border-color: transparent !important;
+    position: absolute !important;
+    right: 10px !important;
+    top: 10px !important;
     background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
 .hc_share_btn > .share_icon {
-    /* color: white !important; */
     width: 18px !important;
     height: 18px !important;
 }
