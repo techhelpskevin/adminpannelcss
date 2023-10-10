@@ -1060,10 +1060,33 @@ User management page ***************
 }
 
 .detail-icon-div {
+    display: flex;
+    flex-direction: column;
     flex: 1;
     border: 1px solid #999;
     border-radius: 4px;
     padding: 10px;
+}
+
+.icons_wrapper {
+    display: flex;
+    /* justify-content: space-between; */
+    padding-inline: 16px;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.detail_icon_wrapper {
+    display: flex;
+    align-items: center;
+    flex-basis: 30%;
+    gap: 14px;
+}
+
+.detail_icon_wrapper>img {
+    width: 60px;
+    height: 60px;
 }
 
 .contacts-wrapper {
@@ -2076,6 +2099,20 @@ Mobile
 
     .select-city-button {
         position: relative !important;
+    }
+
+    .icons_wrapper {
+        padding-inline: 8px;
+        justify-content: flex-start;
+    }
+
+    .detail_icon_wrapper {
+        flex-basis: 45%;
+    }
+
+    .detail_icon_wrapper>img {
+        width: 42px;
+        height: 42px;
     }
 
 }
