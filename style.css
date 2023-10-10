@@ -775,8 +775,17 @@ User management page ***************
     transition: transform .1s linear !important;
 }
 
+.property_link {
+    color: black;
+    text-decoration: none;
+}
+
 .home-card:hover {
     transform: scale(1.02);
+}
+
+.home-card:hover .property_link {
+    text-decoration: underline;
 }
 
 .hc_action {
@@ -997,14 +1006,53 @@ User management page ***************
 }
 
 .main-images {
+    position: relative;
     height: 600px;
     width: 75%;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.slider_controls {
+    width: 100%;
+    height: 100%;
+}
+
+.slider_ctrl_btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide_back {
+    left: 10px;
+}
+
+.slide_next {
+    right: 10px;
+}
+
+.slider_icon {
+    color: black;
+    height: 16px !important;
+    width: auto !important;
 }
 
 .img360,
-.img360_iframe {
+.img360_iframe,
+.general_media_wrapper,
+.media_video,
+.media_img {
     width: 100% !important;
     height: 600px !important;
+    object-fit: contain;
 }
 
 .side-images {
@@ -1015,6 +1063,7 @@ User management page ***************
     overflow-x: hidden;
     height: auto;
     object-fit: contain;
+    /* background-color: rgba(55, 55, 55, 0.05); */
 }
 
 .other-images {
@@ -1358,6 +1407,7 @@ input[type="radio"]:checked::after {
 }
 
 .filter-button-div {
+    position: relative;
     width: 100%;
     display: flex;
     background: rgb(244 244 244);
@@ -1891,6 +1941,7 @@ Mobile
     }
 
     .main-images {
+        min-height: 320px;
         height: 100%;
         width: 100%;
     }
@@ -1921,7 +1972,10 @@ Mobile
     }
 
     .img360,
-    .img360_iframe {
+    .img360_iframe,
+    .general_media_wrapper,
+    .media_video,
+    .media_img {
         width: 100% !important;
         height: 300px !important;
     }
@@ -1932,6 +1986,11 @@ Mobile
 
     .detail_price_btn {
         padding: 6px 20px !important;
+    }
+
+    .slider_ctrl_btn {
+        width: 30px;
+        height: 30px;
     }
 
 
