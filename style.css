@@ -319,6 +319,12 @@ User management page ***************
     color: white;
     margin: 0;
     text-align: left;
+    white-space: nowrap;
+    align-items: baseline;
+}
+
+.tablehead > div, .tablehead > svgI {
+    display: inline-block;
 }
 
 .bodytext,
@@ -967,9 +973,9 @@ User management page ***************
     /* background-color: rgba(0, 0, 0, 0.1) !important; */
 }
 
-.hc_share_btn:hover {
+/* .hc_share_btn:hover {
     border-color: rgba(0, 109, 119, 0.5) !important;
-}
+} */
 
 .hc_share_btn>.share_icon {
     color: #006D77 !important;
@@ -1026,8 +1032,8 @@ User management page ***************
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 40px;
-    height: 40px;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.2) !important;
     border: none;
@@ -1038,6 +1044,7 @@ User management page ***************
 
 .slide_back {
     left: 10px;
+    padding-left: 14px;
 }
 
 .slide_next {
@@ -1046,7 +1053,7 @@ User management page ***************
 
 .slider_icon {
     color: black;
-    height: 16px !important;
+    height: 20px !important;
     width: auto !important;
 }
 
@@ -1984,6 +1991,16 @@ input[type="radio"]:checked::after {
     justify-content: flex-end;
 }
 
+.MuiTooltip-tooltip {
+    background: white !important;
+    color: black !important;
+    font-size: 12px !important;
+}
+
+.MuiTooltip-arrow {
+    color: white !important;
+}
+
 /* *************************
 Mobile
 **************************** */
@@ -2112,11 +2129,20 @@ Mobile
         flex-direction: column !important;
     }
 
+    .searchcardiv .thumbnail {
+        width: 100%;
+        height: 250px;
+        display: inline-block;
+    }
+
     .searchpagebuttondiv {
         align-items: flex-start;
     }
 
     .detailcardheadingdiv {
+        /* flex-direction: column;
+        align-items: flex-start;
+        gap: 10px; */
         border-radius: 0 !important;
     }
 
@@ -2190,8 +2216,8 @@ Mobile
     }
 
     .slider_ctrl_btn {
-        width: 30px;
-        height: 30px;
+        width: 44px;
+        height: 44px;
     }
 
 
@@ -2243,7 +2269,13 @@ Mobile
     }
 
     .slider_range {
-        width: fit-content;
+        min-width: 74px !important;
+        max-width: 74px !important;
+        width: 74px !important;
+    }
+
+    .slider_range:nth-of-type(1) {
+        text-align: right;
     }
 
     .slider_max,
@@ -2256,6 +2288,7 @@ Mobile
     }
 
     .slider_max {
+        text-align: left;
         margin-right: auto;
     }
 
@@ -2384,15 +2417,9 @@ Mobile
         left: 16px;
         right: 16px;
         min-width: 250px;
+        transform: none !important;
         width: auto !important;
         height: auto !important;
-        transform: none !important;
-        background-color: white;
-        border-radius: 6px;
-        box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-        display: flex;
-        flex-direction: column;
-        overflow: hidden;
     }
 
 }
