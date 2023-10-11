@@ -323,7 +323,8 @@ User management page ***************
     align-items: baseline;
 }
 
-.tablehead > div, .tablehead > svgI {
+.tablehead>div,
+.tablehead>svgI {
     display: inline-block;
 }
 
@@ -456,7 +457,7 @@ User management page ***************
 }
 
 .modal-body .btn {
-    display: inline-block;
+    /* display: inline-block; */
     margin: 0px;
     margin-right: 10px;
     background-color: #4168e6;
@@ -525,6 +526,10 @@ User management page ***************
 .row_action_btn {
     width: 34px;
     height: 34px;
+}
+
+.detail_btn_icon {
+    margin-right: 8px !important;
 }
 
 .modal_controls {
@@ -629,6 +634,11 @@ User management page ***************
 
 .warning_text {
     color: rgb(164, 44, 0) !important;
+}
+
+.contacts-wrapper>.detail-btn {
+    display: flex !important;
+    align-items: center !important;
 }
 
 /* login */
@@ -2025,6 +2035,36 @@ input[type="radio"]:checked::after {
 
 .MuiTooltip-arrow {
     color: white !important;
+}
+
+/* OTP Login */
+
+.ol_comp_wrapper {
+    position: absolute;
+    right: 30px;
+}
+
+.otp_login_component {
+    position: relative;
+}
+
+.ol_open_btn {
+    border-radius: 4px;
+    background-color: #006D77 !important;
+    color: white !important;
+    text-transform: capitalize !important;
+    padding-inline: 16px !important;
+}
+
+.ol_popup {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    min-width: 340px;
+    min-height: 400px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 /* *************************
