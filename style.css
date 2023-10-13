@@ -1062,7 +1062,7 @@ User management page ***************
     position: relative;
     height: 600px;
     width: 75%;
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 109, 142, 0.05) !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1092,11 +1092,21 @@ User management page ***************
     width: 65px;
     height: 65px;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.2) !important;
+    background-color: rgba(255, 255, 255, 0.3) !important;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.fullscreen_btn {
+    top: 10px;
+    right: 10px;
+    transform: none;
+    border-radius: 4px;
+    width: 55px;
+    height: 55px;
+
 }
 
 .slide_back {
@@ -1111,6 +1121,12 @@ User management page ***************
 .slider_icon {
     color: black;
     height: 20px !important;
+    width: auto !important;
+}
+
+.fullscreen_icon {
+    color: black;
+    height: 25px !important;
     width: auto !important;
 }
 
@@ -1138,6 +1154,7 @@ User management page ***************
     height: 100%;
     display: flex;
     flex-direction: column;
+    gap: 4px;
     overflow-x: hidden;
     object-fit: contain;
     /* background-color: rgba(55, 55, 55, 0.05); */
@@ -2491,10 +2508,15 @@ Mobile
         flex-direction: column;
     }
 
+    .fullscreen_img_slider {
+        padding-inline: 12px !important;
+        padding-block: 3%;
+    }
+
     .main-images {
         min-height: 320px;
         height: 100%;
-        width: 100%;
+        width: 100% !important;
     }
 
     .side-images {
@@ -2544,6 +2566,11 @@ Mobile
         height: 44px;
     }
 
+    .fullscreen_btn {
+        border-radius: 4px;
+        width: 32px;
+        height: 32px;
+    }
 
     /* HOME PAGE */
 
