@@ -809,12 +809,14 @@ User management page ***************
     flex-direction: column !important;
     align-items: center !important;
     height: 100% !important;
+    cursor: default !important;
 }
 
 .home-card .thumbnail {
     width: 100%;
     height: 190px;
     margin: 0 !important;
+    cursor: pointer;
 }
 
 .home_card_content {
@@ -882,12 +884,14 @@ User management page ***************
     align-items: flex-start !important;
     flex-direction: row !important;
     /* min-height: 250px; */
+    cursor: default !important;
 }
 
 .searchcardiv .thumbnail {
     width: 320px;
     height: 250px;
     display: inline-block;
+    cursor: pointer;
 }
 
 .card_details {
@@ -954,6 +958,10 @@ User management page ***************
 .searchpagebuttondiv .price_btn {
     margin-right: 0;
     margin-bottom: 10px;
+}
+
+.searchpagebuttondiv .view_details {
+    cursor: pointer;
 }
 
 .detailicondiv {
@@ -1023,7 +1031,31 @@ User management page ***************
     width: 100%;
     max-width: 100%;
     display: flex;
+}
 
+.fullscreen_img_slider {
+    z-index: 90 !important;
+    position: fixed !important;
+    top: 60px !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: calc(100% - 60px) !important;
+    background-color: rgba(255, 255, 255, 1) !important;
+    align-items: center !important;
+    padding-inline: 5%;
+    padding-block: 3%;
+}
+
+.fullscreen_close_btn {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 50px !important;
+    height: 50px !important;
+    min-width: fit-content !important;
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    color: black !important;
+    border-radius: 50%;
 }
 
 .main-images {
@@ -1031,6 +1063,21 @@ User management page ***************
     height: 600px;
     width: 75%;
     background-color: rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.general_media_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fullscreen_img_slider .main-images {
+    width: 88%;
+    height: 800px;
+    max-height: min(800px, 90%);
 }
 
 .slider_controls {
@@ -1077,15 +1124,29 @@ User management page ***************
     object-fit: contain;
 }
 
+.fullscreen_img_slider .img360,
+.fullscreen_img_slider .img360_iframe,
+.fullscreen_img_slider .general_media_wrapper,
+.fullscreen_img_slider .media_video,
+.fullscreen_img_slider .media_img {
+    height: 800px !important;
+    max-height: min(800px, 100%);
+}
+
 .side-images {
-    height: 600px;
     width: 25%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
-    height: auto;
     object-fit: contain;
     /* background-color: rgba(55, 55, 55, 0.05); */
+}
+
+/* max-height: min(600px, 90%); */
+.fullscreen_img_slider .side-images {
+    width: 22%;
+    max-height: min(800px, 90%) !important;
 }
 
 .other-images {
@@ -1109,6 +1170,12 @@ User management page ***************
     padding: 10px 20px;
     border: 1px solid #006D77;
     white-space: nowrap;
+}
+
+.fullscreen_img_slider .imgs_info {
+    top: 30px;
+    left: 20px;
+    transform: none;
 }
 
 .lowercontainer {
@@ -2158,10 +2225,12 @@ input[type="radio"]:checked::after {
 
 .signout_btn {
     min-width: fit-content !important;
+    width: 100%;
+    justify-content: flex-start !important;
     padding: 0 !important;
     font-weight: 500 !important;
     text-transform: capitalize !important;
-    /* color: darkred !important; */
+    color: darkred !important;
 }
 
 .otp_login_form {
