@@ -878,6 +878,7 @@ User management page ***************
 
 .search_card {
     display: flex !important;
+    flex-wrap: wrap;
 }
 
 .searchcardiv {
@@ -886,6 +887,39 @@ User management page ***************
     flex-direction: row !important;
     /* min-height: 250px; */
     cursor: default !important;
+}
+
+.sc_options_wrapper {
+    flex-basis: 100% !important;
+    display: block;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.options_list {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 4px 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+.options_list .option_item {
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 6px;
+}
+
+.radio_input,
+label {
+    cursor: pointer;
 }
 
 .searchcardiv .thumbnail {
@@ -1125,7 +1159,8 @@ User management page ***************
     width: auto !important;
 }
 
-.fullscreen_icon, .fullscreen_close_icon {
+.fullscreen_icon,
+.fullscreen_close_icon {
     color: black;
     height: 25px !important;
     width: auto !important;
@@ -1454,6 +1489,7 @@ input[type="radio"]:checked::after {
     display: flex;
     justify-content: center;
     width: 100%;
+    padding-inline: 10px;
 }
 
 .default-home-cards .searchdiv {
@@ -1463,7 +1499,7 @@ input[type="radio"]:checked::after {
     align-items: center !important;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0 30px;
+    gap: 0 30px !important;
 }
 
 .home-screen-card-section-bottom {
@@ -1760,7 +1796,8 @@ input[type="radio"]:checked::after {
     white-space: nowrap;
 }
 
-.dd_popup {
+.dd_popup,
+.main_menu_popup {
     background: white;
     position: absolute;
     top: 100%;
@@ -1773,6 +1810,29 @@ input[type="radio"]:checked::after {
     min-width: 160px;
     width: 100% !important;
     /* max-width: 320px; */
+}
+
+.main_menu_icon {
+    font-size: 34px !important;
+}
+
+.main_menu_popup {
+    min-width: 180px;
+    top: 106%;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-block: 10px;
+    border-radius: 4px;
+}
+
+.main_menu_popup .menu_item {
+    padding-inline: 14px;
+    min-height: 34px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .dd_search_box {
@@ -1888,7 +1948,8 @@ input[type="radio"]:checked::after {
 }
 
 .home-search-button,
-.sr-search-button, .select-city-button .custom_select_curr {
+.sr-search-button,
+.select-city-button .custom_select_curr {
     height: 40px;
     color: white;
     border: none;
@@ -2217,7 +2278,7 @@ input[type="radio"]:checked::after {
 .menu_popup {
     position: absolute;
     right: 0;
-    top: 105%;
+    top: 150%;
     min-width: 220px;
     /* min-height: 300px; */
     max-height: 400px;
@@ -2242,6 +2303,9 @@ input[type="radio"]:checked::after {
 }
 
 .menu_item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
     width: 100%;
     padding-block: 8px;
     cursor: pointer;
@@ -2251,14 +2315,23 @@ input[type="radio"]:checked::after {
     color: #004e55 !important;
 }
 
+.menu_item_icon {
+    color: #004e55;
+}
+
 .signout_btn {
     min-width: fit-content !important;
     width: 100%;
     justify-content: flex-start !important;
+    gap: 10px;
     padding: 0 !important;
     font-weight: 500 !important;
     text-transform: capitalize !important;
     color: darkred !important;
+}
+
+.signout_btn span {
+    font-family: sans-serif;
 }
 
 .otp_login_form {
@@ -2268,6 +2341,14 @@ input[type="radio"]:checked::after {
 
 .field_label {
     /* font-size: 18px; */
+}
+
+.form_btns_wrapper {
+    display: flex;
+}
+
+.form_btns_wrapper .form_btn {
+    flex: 50%;
 }
 
 .ol_input_field {
@@ -2522,6 +2603,12 @@ Mobile
         flex-direction: column !important;
     }
 
+    .options_list .option_item {
+        flex-basis: 100%;
+        gap: 8px;
+        padding: 8px 6px;
+    }
+
     .searchcardiv .thumbnail {
         width: 100%;
         height: 250px;
@@ -2707,7 +2794,7 @@ Mobile
     }
 
     .default-home-cards .searchdiv {
-        gap: 0 !important;
+        column-gap: 30px !important;
     }
 
     .home-screen-card-section-bottom {
