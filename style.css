@@ -154,6 +154,7 @@ h2.formheadingcontainer {
 
 .standalone_page {
     width: 100vw;
+    max-width: 100%;
     min-height: 100vh;
     padding-inline: 100px;
     padding-block: 24px;
@@ -1034,21 +1035,21 @@ User management page ***************
 }
 
 .fullscreen_img_slider {
-    z-index: 90 !important;
+    z-index: 97 !important;
     position: fixed !important;
-    top: 60px !important;
+    top: 0 !important;
     left: 0 !important;
     width: 100% !important;
-    height: calc(100% - 60px) !important;
+    height: 100% !important;
     background-color: rgba(255, 255, 255, 1) !important;
     align-items: center !important;
-    padding-inline: 5%;
-    padding-block: 3%;
+    padding-inline: 2px;
+    padding-block: 2px;
 }
 
 .fullscreen_close_btn {
     position: absolute;
-    top: 30px;
+    top: 20px;
     right: 20px;
     width: 50px !important;
     height: 50px !important;
@@ -1061,7 +1062,7 @@ User management page ***************
 .main-images {
     position: relative;
     height: 600px;
-    width: 75%;
+    width: 78%;
     background-color: rgba(0, 109, 142, 0.05) !important;
     display: flex;
     align-items: center;
@@ -1075,9 +1076,9 @@ User management page ***************
 }
 
 .fullscreen_img_slider .main-images {
-    width: 88%;
-    height: 800px;
-    max-height: min(800px, 90%);
+    width: 92%;
+    height: 1000px;
+    max-height: min(1000px, 100%);
 }
 
 .slider_controls {
@@ -1124,7 +1125,7 @@ User management page ***************
     width: auto !important;
 }
 
-.fullscreen_icon {
+.fullscreen_icon, .fullscreen_close_icon {
     color: black;
     height: 25px !important;
     width: auto !important;
@@ -1145,16 +1146,16 @@ User management page ***************
 .fullscreen_img_slider .general_media_wrapper,
 .fullscreen_img_slider .media_video,
 .fullscreen_img_slider .media_img {
-    height: 800px !important;
-    max-height: min(800px, 100%);
+    height: 1000px !important;
+    max-height: min(1000px, 100%);
 }
 
 .side-images {
-    width: 25%;
+    width: 22%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 2px;
     overflow-x: hidden;
     object-fit: contain;
     /* background-color: rgba(55, 55, 55, 0.05); */
@@ -1162,8 +1163,8 @@ User management page ***************
 
 /* max-height: min(600px, 90%); */
 .fullscreen_img_slider .side-images {
-    width: 22%;
-    max-height: min(800px, 90%) !important;
+    width: 16%;
+    max-height: min(1000px, 100%) !important;
 }
 
 .other-images {
@@ -1190,7 +1191,8 @@ User management page ***************
 }
 
 .fullscreen_img_slider .imgs_info {
-    top: 30px;
+    display: none;
+    top: 20px;
     left: 20px;
     transform: none;
 }
@@ -1693,6 +1695,10 @@ input[type="radio"]:checked::after {
     color: white !important;
 }
 
+.select-city-button {
+    position: relative;
+}
+
 .filters_component {
     /* height: 60px; */
     /* overflow-y: visible !important; */
@@ -1864,6 +1870,10 @@ input[type="radio"]:checked::after {
     font-weight: 600;
 }
 
+.select_slider {
+    max-width: 500px !important;
+}
+
 .custom_select_popup_item {
     white-space: nowrap;
     display: flex;
@@ -1878,7 +1888,7 @@ input[type="radio"]:checked::after {
 }
 
 .home-search-button,
-.sr-search-button {
+.sr-search-button, .select-city-button .custom_select_curr {
     height: 40px;
     color: white;
     border: none;
@@ -1891,6 +1901,7 @@ input[type="radio"]:checked::after {
     border-radius: 6px;
     background-color: #006D77 !important;
     color: white;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !important;
 }
 
 .loader-class {
@@ -2321,6 +2332,47 @@ input[type=number] {
     color: white !important;
 }
 
+.acc_menu_item {
+    text-decoration: none;
+    color: black;
+}
+
+.tab_item {
+    min-width: fit-content !important;
+    max-width: fit-content !important;
+    width: fit-content !important;
+}
+
+.tabs_wrapper {
+    width: fit-content;
+    max-width: 100%;
+    padding-block: 10px !important;
+    display: flex;
+    margin-inline: auto;
+}
+
+.MuiTabs-indicator {
+    background-color: #006D77 !important;
+}
+
+.MuiTabs-flexContainer>.Mui-selected {
+    background-color: white !important;
+    color: black !important;
+    font-weight: 600;
+}
+
+.blog_page,
+.aboutus_page,
+.contactus_page {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.frame_page {
+    width: 100%;
+    height: 100vh;
+}
+
 /* *************************
 Mobile
 **************************** */
@@ -2509,32 +2561,35 @@ Mobile
     }
 
     .fullscreen_img_slider {
-        padding-inline: 12px !important;
-        padding-block: 3%;
+        padding-inline: 0 !important;
+        padding-block: 0;
     }
 
     .main-images {
         min-height: 320px;
-        height: 100%;
+        height: 80%;
         width: 100% !important;
     }
 
     .side-images {
-        height: 100px !important;
+        height: 20% !important;
         width: 100% !important;
+        max-height: 80px;
         flex-direction: row;
         overflow-x: auto;
     }
 
     .other-images {
-        width: 120px;
-        height: 90px;
+        width: 120px !important;
+        height: 100% !important;
+        max-height: 80px;
     }
 
     .other_images_item {
-        width: 120px;
-        height: 90px;
-        object-fit: cover;
+        width: 120px !important;
+        height: 100% !important;
+        max-height: 80px;
+        object-fit: cover !important;
     }
 
     .lowercontainer {
@@ -2570,6 +2625,10 @@ Mobile
         border-radius: 4px;
         width: 32px;
         height: 32px;
+    }
+
+    .fullscreen_img_slider .imgs_info {
+        display: none;
     }
 
     /* HOME PAGE */
@@ -2701,7 +2760,7 @@ Mobile
     }
 
     .home-search-button,
-    .sr-search-button {
+    .sr-search-button, .select-city-button .custom_select_curr {
         height: 36px;
         padding: 6px 12px;
     }
