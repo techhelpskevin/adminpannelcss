@@ -2442,16 +2442,17 @@ input[type=number] {
     font-weight: 600;
 }
 
-.blog_page,
-.aboutus_page,
-.contactus_page {
-    width: 100vw;
-    min-height: 100vh;
-}
-
 .frame_page {
     width: 100%;
     height: 100vh;
+}
+
+.coming_soon_container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* *************************
