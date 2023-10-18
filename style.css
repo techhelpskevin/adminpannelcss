@@ -912,7 +912,6 @@ User management page ***************
     display: flex;
     gap: 4px 10px;
     flex-wrap: wrap;
-    justify-content: space-between;
     padding: 6px;
 }
 
@@ -1608,7 +1607,7 @@ input[type="radio"]:checked::after {
     width: fit-content !important;
     max-width: fit-content !important;
 }
-
+.toogle-filter,
 .filter-button-div-overflowed .toogle-filter,
 .filter-button-div-overflowed .filterbutton,
 .filter-button-div-overflowed .filterChannel,
@@ -1637,6 +1636,7 @@ input[type="radio"]:checked::after {
     display: flex;
     justify-content: center;
     background: rgb(244 244 244);
+    padding-bottom: 20px;
 }
 
 .result-searchdiv .searchdiv {
@@ -1650,7 +1650,7 @@ input[type="radio"]:checked::after {
 
 .pagination_container .search_pagination {
     margin-left: auto;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .MuiPagination-ul .MuiPaginationItem-root {
@@ -2005,6 +2005,7 @@ input[type="radio"]:checked::after {
     font-weight: 500;
     color: white;
     box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    padding: 8px 26px !important;
 }
 
 .chatbot_component {
@@ -2532,7 +2533,7 @@ input[type=number] {
     background-color: #f2f4f7 !important;
 }
 
-.top_hero_section {
+.about_hero_comp {
     background-color: #fff3ea;
     display: flex;
 }
@@ -2547,6 +2548,7 @@ input[type=number] {
 }
 
 .about_content {
+    width: 100%;
     max-width: 1600px;
     background-color: white;
     padding: 30px 60px;
@@ -2555,6 +2557,129 @@ input[type=number] {
 
 .aboutus_title {
     font-weight: 500;
+}
+
+.contact_us_comp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 40px;
+}
+
+.contact_us_wrapper {
+    padding-block: 40px 20px;
+    width: 100%;
+    max-width: 1600px;
+    background: url(data:image/png;base64,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) no-repeat;
+    background-position: top right;
+    background-size: 165px 165px;
+}
+
+.contact_title {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    color: rgb(16, 24, 40);
+}
+
+.contact_heading {
+    color: #101828 !important;
+}
+
+.contact_sec_bottom {
+    display: flex;
+    margin-top: 80px;
+}
+
+.contact_details {
+    flex: 1;
+    flex-basis: 30%;
+    padding-right: 20px;
+}
+
+.address_title {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    font-size: 18px;
+    margin-block: 10px;
+    color: #101828;
+}
+
+.addr_item {
+    color: #475467;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.contact_form {
+    flex-basis: 65%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact_input {
+    border: none;
+    background-color: white;
+    border-radius: 6px;
+    height: 60px;
+    outline: none;
+    font-size: 16px;
+    line-height: 20px;
+    padding-inline: 20px;
+}
+
+.oneline_input {
+    flex: 0 0 auto;
+    flex-basis: 48%;
+}
+
+.multiline_input {
+    padding-block: 20px;
+    resize: vertical;
+    max-height: 500px;
+    height: 200px;
+    flex-basis: 100%;
+}
+
+.form_controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.contact_submit {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    padding-inline: 40px;
+    padding-block: 16px;
+    border-radius: 4px;
+    background-color: #004e55;
+    color: white;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background .3s linear, color .3s linear;
+}
+
+.contact_submit:hover {
+    color: #004e55;
+    background-color: #fff;
+}
+
+.contact_note {
+    color: #667085;
 }
 
 /* *************************
@@ -2934,7 +3059,7 @@ Mobile
     .custom_select_curr {
         font-size: 14px !important;
         padding: 5px 10px !important;
-        min-width: 90px !important;
+        min-width: 120px !important;
     }
 
     .MuiToggleButton-root,
@@ -3082,5 +3207,42 @@ Mobile
 
     .blog-screen .footerdiv {
         padding-top: 30px;
+    }
+
+    /* ABOUT PAGE */
+
+    .aboutus_section {
+        padding-inline: 4px !important;
+    }
+
+    .about_content {
+        padding: 30px 12px;
+    }
+
+    .contact_us_comp {
+        padding-inline: 20px;
+    }
+
+    .contact_sec_bottom {
+        flex-direction: column;
+    }
+
+    .contact_details {
+        flex-basis: 100%;
+    }
+
+    .contact_form {
+        flex-basis: 100%;
+        margin-top: 20px;
+    }
+
+    .oneline_input {
+        flex-basis: 100%;
+    }
+
+    .form_controls {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
     }
 }
