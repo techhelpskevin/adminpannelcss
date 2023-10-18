@@ -11,6 +11,11 @@ body {
     padding: 0 !important;
 }
 
+::selection {
+    background-color: #006D77;
+    color: white;
+}
+
 #root {
     width: 100vw;
     min-height: 100vh;
@@ -378,11 +383,13 @@ User management page ***************
 .api_btn {
     width: fit-content;
     padding: 10px 20px;
-    /* background-color: #004e55 !important; */
     background-color: #172b4d !important;
+    border-radius: 4px !important;
+    /* background-color: #004e55 !important; */
     /* background-color: #101828 !important; */
     /* background-color: #086c74 !important; */
     /* background-color: #182c74 !important; */
+    cursor: pointer;
 }
 
 .standalone_btn {
@@ -1008,8 +1015,8 @@ label {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    width: 35px !important;
-    height: 35px !important;
+    width: 36px !important;
+    height: 36px !important;
     border-radius: 50% !important;
     background: transparent !important;
     border: 1px solid black !important;
@@ -1020,6 +1027,8 @@ label {
 
 .hc_share_btn {
     border-color: transparent !important;
+    border-radius: 50%;
+    background-color: rgba(0, 78, 85, 0.08) !important;
     /* position: absolute !important;
     right: 10px !important;
     top: 10px !important; */
@@ -1728,6 +1737,7 @@ input[type="radio"]:checked::after {
 
 .select-city-button .custom_select_curr {
     background-color: #006D77 !important;
+    border-radius: 4px !important;
     color: white !important;
 }
 
@@ -1852,6 +1862,7 @@ input[type="radio"]:checked::after {
 }
 
 .dd_search_box .dd_search_input {
+    width: 100%;
     font-size: 14px;
     padding: 6px;
     border: none;
@@ -2283,7 +2294,7 @@ input[type="radio"]:checked::after {
     /* min-height: 300px; */
     max-height: 400px;
     background-color: white;
-    border-radius: 6px;
+    border-radius: 4px;
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     overflow: hidden;
 }
@@ -2453,6 +2464,97 @@ input[type=number] {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* BLOG PAGE */
+
+.our_blog_container {
+    background-color: #f2f4f7 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 60px;
+}
+
+.page_title {
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: 50px;
+}
+
+.blog_container {
+    max-width: 1600px;
+    background-color: white;
+    padding: 30px 60px;
+    margin-bottom: 30px;
+}
+
+.section_title {
+    font-size: 34px;
+    line-height: 50px;
+    margin-block: 10px 30px;
+}
+
+.blog_para {
+    font-size: 20px;
+    margin-block: 10px 30px;
+    line-height: 30px;
+}
+
+.li {
+    margin-block: 10px 30px;
+}
+
+.li_heading {
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.home_navigate_btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: rgb(0, 109, 119);
+    margin-block: 10px 30px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.blog-screen .footerdiv,
+.aboutus-screen .footerdiv {
+    padding-top: 60px;
+}
+
+/* ABOUT US PAGE */
+
+.about_us_container {
+    background-color: #f2f4f7 !important;
+}
+
+.top_hero_section {
+    background-color: #fff3ea;
+    display: flex;
+}
+
+.aboutus_section {
+    background-color: #f2f4f7 !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-inline: 40px;
+    padding-block: 20px 40px;
+}
+
+.about_content {
+    max-width: 1600px;
+    background-color: white;
+    padding: 30px 60px;
+    margin-bottom: 30px;
+}
+
+.aboutus_title {
+    font-weight: 500;
 }
 
 /* *************************
@@ -2848,7 +2950,8 @@ Mobile
     }
 
     .home-search-button,
-    .sr-search-button, .select-city-button .custom_select_curr {
+    .sr-search-button,
+    .select-city-button .custom_select_curr {
         height: 36px;
         padding: 6px 12px;
     }
@@ -2941,4 +3044,43 @@ Mobile
         margin-bottom: 20px;
     }
 
+    /* BLOG PAGE */
+
+    .our_blog_container {
+        padding-inline: 4px;
+    }
+
+    .page_title {
+        font-size: 38px;
+        margin-bottom: 30px;
+    }
+
+    .blog_container {
+        padding: 30px 20px;
+        margin-bottom: 30px;
+    }
+
+    .section_title {
+        font-size: 26px;
+        line-height: 40px;
+        margin-block: 10px 26px;
+    }
+
+    .blog_para {
+        font-size: 20px;
+        margin-block: 10px 30px;
+        line-height: 30px;
+    }
+
+    .li {
+        margin-block: 10px 30px;
+    }
+
+    .li_heading {
+        font-size: 20px;
+    }
+
+    .blog-screen .footerdiv {
+        padding-top: 30px;
+    }
 }
