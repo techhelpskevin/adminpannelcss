@@ -919,13 +919,15 @@ User management page ***************
     flex-basis: 30%;
     display: flex;
     align-items: center;
-    gap: 8px;
-    padding: 8px 6px;
 }
 
 .radio_input,
 label {
     cursor: pointer;
+}
+
+.radio_label {
+    padding: 8px 6px;
 }
 
 .searchcardiv .thumbnail {
@@ -1666,6 +1668,7 @@ input[type="radio"]:checked::after {
 /* scroll to top */
 
 .scroll-to-top {
+    display: none;
     width: 42px;
     height: 42px;
     font-size: 20px;
@@ -1674,6 +1677,10 @@ input[type="radio"]:checked::after {
     right: 20px;
     border-radius: 50%;
     background-color: #006D77 !important;
+}
+
+.show-scroll-to-top {
+    display: flex;
 }
 
 .scroll-to-top:hover {
