@@ -237,6 +237,21 @@ label {
     border-color: hsl(0, 0%, 50%);
 }
 
+.large_field_wrapper {
+    flex-basis: 100%;
+}
+
+.large_field {
+    width: 100%;
+}
+
+.large_field .inputdiv,
+.large_field .input_elem {
+    flex: 1;
+    width: 100%;
+    max-width: 800px;
+}
+
 .radio_options_list {
     display: flex;
     align-items: center;
@@ -275,7 +290,7 @@ input {
 
 .textarea {
     flex: 1;
-    width: 700px;
+    width: 800px;
     height: 200px;
 }
 
@@ -949,6 +964,7 @@ label {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 14px;
     padding: 10px 12px;
     border-top-right-radius: 4px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -1627,11 +1643,12 @@ input[type="radio"]:checked::after {
     background-color: #006D77 !important;
 } */
 
-.filter_reset_btn {
+.filter_reset_btn>.filter_reset_btn {
     background-color: white !important;
     color: black !important;
     font-weight: 500 !important;
     font-size: 16px !important;
+    min-width: 120px !important;
 }
 
 
@@ -2279,7 +2296,7 @@ input[type="radio"]:checked::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(122, 122, 122, 0.4);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .ol_popup {
@@ -2287,7 +2304,7 @@ input[type="radio"]:checked::after {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    min-width: 400px;
+    min-width: 340px;
     min-height: auto;
     background-color: white;
     border-radius: 6px;
@@ -2356,7 +2373,7 @@ input[type="radio"]:checked::after {
 
 .otp_login_form {
     padding: 30px 30px 30px 30px;
-    max-width: 500px;
+    max-width: 400px;
 }
 
 .field_label {
@@ -2416,12 +2433,18 @@ input[type=number] {
     color: white !important;
     font-weight: 500;
     padding-inline: 16px !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    font-family: Chivo, sans-serif !important;
 }
 
 .ol_cancel_btn {
     color: #006D77 !important;
     border-color: rgba(0, 109, 119, 0.5) !important;
     margin-left: 16px !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    font-family: Chivo, sans-serif !important;
 }
 
 .form_back_btn {
@@ -2716,11 +2739,15 @@ input[type=number] {
 
 .address_title {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     gap: 10px;
     font-size: 18px;
     margin-block: 10px;
     color: #101828;
+}
+
+.contact_home_icon {
+    font-size: 22px;
 }
 
 .addr_item {
@@ -2895,13 +2922,27 @@ Mobile
         width: 100px;
     }
 
+    .large_field {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .textarea_wrapper .inputdiv {
+        width: 100%;
+    }
+
     .textarea {
-        width: 320px;
+        max-width: 400px;
+        width: 100%;
         height: 150px;
     }
 
     .file_input {
         width: 170px;
+    }
+
+    .inputdiv {
+        max-width: 400px;
     }
 
     /* User management page */
@@ -2971,6 +3012,10 @@ Mobile
         align-items: flex-start;
         gap: 10px; */
         border-radius: 0 !important;
+    }
+
+    .filter-button-div-overflowed {
+        padding-block: 6px;
     }
 
     /* details card */
@@ -3176,15 +3221,24 @@ Mobile
     }
 
     .custom_select_curr {
-        font-size: 14px !important;
+        font-size: 15px !important;
         padding: 5px 10px !important;
         min-width: 120px !important;
     }
 
     .MuiToggleButton-root,
-    .slider_btn {
-        font-size: 16px !important;
+    .slider_btn,
+    .select_btn {
+        font-size: 15px !important;
+        padding: 4px 10px !important;
+    }
+
+    .MuiToggleButton-root,
+    .slider_btn,
+    .filter_reset_btn > .filter_reset_btn {
+        font-size: 15px !important;
         padding: 4px 8px !important;
+        min-width: 120px !important;
     }
 
     /* custom select */
