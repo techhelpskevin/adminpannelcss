@@ -1266,7 +1266,11 @@ label {
 }
 
 .detail-info-div {
+    height: fit-content;
     flex: 1;
+    flex-basis: 50%;
+    min-width: 320px;
+    max-width: 50%;
     display: flex;
     flex-direction: column;
 
@@ -1277,7 +1281,16 @@ label {
     margin-top: 0;
 }
 
+.detail_desc {
+    white-space: pre-line;
+    /* white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;      
+    white-space: -o-pre-wrap; */
+    word-wrap: break-word;
+}
+
 .detail-icon-div {
+    height: fit-content;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -3076,6 +3089,10 @@ Mobile
         flex-direction: column;
         justify-content: flex-start;
         gap: 20px;
+    }
+
+    .detail-info-div {
+        max-width: 100%;
     }
 
     .img360,
