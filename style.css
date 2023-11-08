@@ -551,6 +551,10 @@ User management page ***************
     height: 34px;
 }
 
+.text_btn {
+    width: fit-content;
+}
+
 .detail_btn_icon {
     margin-right: 8px !important;
 }
@@ -2322,8 +2326,6 @@ input[type="radio"]:checked::after {
     width: calc(100% - 28px);
     max-width: 400px;
     min-height: auto;
-    width: calc(100% - 28px);
-    max-width: 400px;
     background-color: white;
     border-radius: 6px;
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -2536,12 +2538,21 @@ input[type=number] {
     width: fit-content !important;
 }
 
+.comp_tabs_wrapper {
+    width: 100% !important;
+    background-color: white !important;
+    position: sticky;
+    top: 60px;
+    z-index: 9 !important;
+}
+
 .tabs_wrapper {
     width: fit-content;
     max-width: 100%;
     padding-block: 10px !important;
     display: flex;
     margin-inline: auto;
+    background-color: white !important;
 }
 
 .MuiTabs-indicator {
@@ -2555,6 +2566,9 @@ input[type=number] {
 }
 
 .tab_data {
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
     min-height: 600px;
 }
 
