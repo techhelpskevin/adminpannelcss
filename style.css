@@ -2297,12 +2297,19 @@ input[type="radio"]:checked::after {
 .acc_btn {
     padding: 0 !important;
     background-color: white !important;
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
 
 .acc_profile_icon {
     width: 32px !important;
     height: 34px !important;
     color: #292929;
+}
+
+.profile_name_pc {
+    color: #292929 !important;
 }
 
 .expand_icon {
