@@ -1034,6 +1034,7 @@ label {
 
 .detailicondiv {
     display: flex;
+    align-items: center;
     gap: 14px;
 }
 
@@ -3219,10 +3220,18 @@ Mobile
     }
 
     .detailcardheadingdiv {
-        /* flex-direction: column;
+        flex-direction: column;
         align-items: flex-start;
-        gap: 10px; */
+        /* gap: 10px; */
         border-radius: 0 !important;
+    }
+
+    .detailicondiv {
+        width: 100%;
+    }
+
+    .detailicondiv_pdate {
+        margin-right: auto;
     }
 
     .filter-button-div-overflowed {
