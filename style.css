@@ -6391,6 +6391,10 @@ Mobile
         font-size: 16px;
     }
 
+    .table_row_check:checked::after {
+        font-size: 20px;
+    }
+
     /* search card  */
 
     .searchcardiv {
